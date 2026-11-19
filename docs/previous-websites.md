@@ -1,13 +1,13 @@
 # 之前的网站案例
 
-2026-11-19 从 GitHub 账号 `CCCIRCCCLE715` 的现有仓库中核对。以下名称和效果依据仓库 README 或实际页面源码整理。网站在线地址仅在仓库已有记录时列出，本次未逐个验收旧网站的在线效果。
+2026-11-19 从 GitHub 账号 `CCCIRCCCLE715` 的现有仓库中核对。以下名称和效果依据仓库 README 或实际页面源码整理。网站在线地址仅在仓库已有记录时列出，本次未逐个验收旧网站的在线效果。月球太空舱与 FS50P 手表现已收录到本合集，见[总目录](../README.md)。
 
 ## 视觉与交互网站
 
 | 案例 | 主要效果 | 原仓库 | 权限 |
 | --- | --- | --- | --- |
 | 滚纸个人首页 | 浅灰白与明黄配色，真人头部贴纸，滚动卷纸，七件立体物体与视频封面 | [personal-lux-home](https://github.com/CCCIRCCCLE715/personal-lux-home) | 私有 |
-| 月球太空舱 | 视差滚动，两次开门衔接品牌标题、动态信息和图片展览三个页面 | [huangbai-lunar-parallax](https://github.com/CCCIRCCCLE715/huangbai-lunar-parallax) | 私有 |
+| 月球太空舱 | 视差滚动，两次开门衔接品牌标题、动态信息和图片展览三个页面 | [合集源码](../sites/lunar-parallax) · [原仓库](https://github.com/CCCIRCCCLE715/huangbai-lunar-parallax) | 公开 |
 | LumiQ 产品网站 | 动态首页、产品轮播、品牌故事、套餐和产品详情；[原仓库记录的线上地址](https://lumiq-parallax-experience.vercel.app/) | [lumiq-parallax-experience](https://github.com/CCCIRCCCLE715/lumiq-parallax-experience) | 公开 |
 | 灵感老虎机 | 红金复古机台，双滚轮、渐进减速、机械回弹和跑马灯 | [idea-slot-machine](https://github.com/CCCIRCCCLE715/idea-slot-machine) | 公开 |
 | 3D 求职地球 | 连续地球场景、全球岗位光点、浮动岗位卡片和搜索筛选 | [work-globe](https://github.com/CCCIRCCCLE715/work-globe) | 公开 |

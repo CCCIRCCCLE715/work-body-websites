@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="HUANGBAI lunar capsule scroll experience" />
+    <title>HUANGBAI DESIGN — Lunar Parallax</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <main class="site-shell">
+      <div class="video-layer" aria-hidden="true">
+        <video id="scroll-video" muted playsinline preload="auto"></video>
+      </div>
+
+      <div class="loading-overlay" aria-live="polite">
+        <div class="loading-copy">
+          <span id="loading-label">Loading… 0%</span>
+          <span class="loading-track"><span class="loading-fill"></span></span>
+        </div>
+      </div>
+
+      <nav class="pill-nav-container" aria-label="Room navigation">
+        <div class="pill-nav">
+          <button class="pill-logo" type="button" data-progress="0" aria-label="Back to Room 01">
+            <svg width="24" height="24" viewBox="0 0 100 100" fill="white" aria-hidden="true">
+              <path d="m50 50c0 18.2 14.77 32.98 32.97 32.98C82.97 64.78 68.2 50 50 50Z" />
+              <path d="M17.02 82.98C35.22 82.98 50 68.21 50 50c-18.2 0-32.98 14.77-32.98 32.98Z" />
+              <path d="M82.98 17.02C64.78 17.02 50.01 31.79 50.01 49.99c18.2 0 32.97-14.77 32.97-32.97Z" />
+              <path d="M17.02 17.02c0 18.2 14.77 32.97 32.98 32.97 0-18.2-14.77-32.97-32.98-32.97Z" />
+            </svg>
+          </button>
+          <ul class="pill-list desktop-nav">
+            <li><button class="pill is-active" type="button" data-progress="0">ROOM 01</button></li>
+            <li><button class="pill" type="button" data-progress="0.333333">ROOM 02</button></li>
+            <li><button class="pill" type="button" data-progress="0.666667">ROOM 03</button></li>
+          </ul>
+          <button class="mobile-menu-button" type="button" aria-label="Toggle navigation" aria-expanded="false">
+            <span></span><span></span>
+          </button>
+          <ul class="mobile-menu">
+            <li><button type="button" data-progress="0">ROOM 01</button></li>
+            <li><button type="button" data-progress="0.333333">ROOM 02</button></li>
+            <li><button type="button" data-progress="0.666667">ROOM 03</button></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="scroll-stage" aria-label="Three-room lunar capsule journey">
+        <section id="room-01" class="scroll-page" aria-label="Room one">
+          <div class="scroll-float-wrap">
+            <h1 id="hero-title" class="scroll-float-text" aria-label="HUANGBAI DESIGN"></h1>
+          </div>
+        </section>
+
+        <section id="room-02" class="story-page" aria-labelledby="room-two-title">
+          <div class="story-overlay second-page-overlay">
+            <p class="second-page-meta">LUNAR HABITAT · ROOM 02 · 384,400 KM FROM HOME</p>
+            <h2 id="room-two-title" class="kinetic-title">
+              <span class="kinetic-line">LIFE</span>
+              <span class="kinetic-line kinetic-line-serif">FINDS</span>
+              <span class="kinetic-line">A WAY</span>
+            </h2>
+            <p class="second-page-foot">FROM BARREN ORBIT TO A LIVING HORIZON</p>
+          </div>
+        </section>
+
+        <section id="room-03" class="story-page story-page-three" aria-labelledby="room-three-title">
+          <div class="story-overlay third-page-overlay">
+            <div class="final-copy">
+              <p class="page-index">03 / THE LIVING ARCHIVE</p>
+              <h2 id="room-three-title">A NEW<br /><em>BLUEPRINT</em><br />FOR LIFE.</h2>
+              <p class="final-intro">Three rooms. Two thresholds. One habitat learning to bloom beyond Earth.</p>
+            </div>
+            <div class="gallery-grid">
+              <figure class="gallery-card gallery-ground">
+                <img data-asset="ground" alt="Astronaut taking a self portrait on the Moon" />
+                <figcaption>LUNAR GROUND / 01</figcaption>
+              </figure>
+              <figure class="gallery-card gallery-orbit">
+                <img data-asset="orbit" alt="Orbital station above Earth" />
+                <figcaption>LOW ORBIT / 02</figcaption>
+              </figure>
+              <figure class="gallery-card gallery-earth">
+                <img data-asset="earth" alt="Earth seen from space" />
+                <figcaption>BLUE MARBLE / 03</figcaption>
+              </figure>
+              <figure class="gallery-card gallery-observer">
+                <img data-asset="horizon" alt="Lunar surface beneath a distant planet" />
+                <figcaption>LUNAR HORIZON / 04</figcaption>
+              </figure>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

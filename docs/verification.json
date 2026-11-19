@@ -18,5 +18,26 @@
     "productionBuild": "passed",
     "builtEntryFilesMatchProductionVersion": true
   },
-  "scope": "Source packaging, existing automated checks and reproducible builds. No new visual acceptance or Vercel deployment performed."
+  "scope": "Source packaging, existing automated checks and reproducible builds. No new visual acceptance or Vercel deployment performed.",
+  "lunarParallax": {
+    "cleanDependencyInstall": true,
+    "lint": "passed",
+    "productionBuild": "passed",
+    "filesIdenticalToSourceCommit": 48
+  },
+  "fs50pWatch": {
+    "cleanDependencyInstall": true,
+    "productionBuild": "passed",
+    "existingTestsPassed": 4,
+    "filesIdenticalToSourceCommit": 34,
+    "editableBlenderSourceIncluded": true
+  },
+  "catalog": {
+    "totalEntries": 6,
+    "fullSourceProjects": 5,
+    "onlineOnlyEntries": [
+      "novaai"
+    ],
+    "missingRelativeDocumentationLinks": 0
+  }
 }

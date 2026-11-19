@@ -1,0 +1,57 @@
+{
+  "updatedAt": "2026-11-19T15:21:22.359665+08:00",
+  "sites": [
+    {
+      "id": "wardrobe",
+      "title": "作品衣橱",
+      "description": "衣架、立体衣物与作品切换",
+      "directory": "sites/wardrobe",
+      "liveUrl": "https://huangbai-wardrobe.vercel.app/",
+      "sourceStatus": "included"
+    },
+    {
+      "id": "planet",
+      "title": "可漫游小星球",
+      "description": "小岛漫游、角色换装与作品卡片",
+      "directory": "sites/planet",
+      "liveUrl": "https://huangbai-little-planet-1113.vercel.app/",
+      "sourceStatus": "included"
+    },
+    {
+      "id": "elastic-head",
+      "title": "弹性大头作品集",
+      "description": "捏脸、表情变化与鼠标跟随",
+      "directory": "sites/elastic-head",
+      "liveUrl": "https://huangbai-portfolio.vercel.app/",
+      "sourceStatus": "included"
+    },
+    {
+      "id": "lunar-parallax",
+      "title": "月球太空舱",
+      "description": "连续开门、三段空间与滚动视频",
+      "directory": "sites/lunar-parallax",
+      "liveUrl": null,
+      "sourceStatus": "included",
+      "sourceRepository": "https://github.com/CCCIRCCCLE715/huangbai-lunar-parallax",
+      "sourceCommit": "9a558d1a219a0f79e0878449d1bf29abe0d9e360"
+    },
+    {
+      "id": "fs50p-watch",
+      "title": "FS50P 手表",
+      "description": "活动表链、机芯拆解与三维滚动",
+      "directory": "sites/fs50p-watch",
+      "liveUrl": "https://fs50p-watch-experience.vercel.app/",
+      "sourceStatus": "included",
+      "sourceRepository": "https://github.com/huangbai-AI/fs50p-watch-experience",
+      "sourceCommit": "b19f1ab296bddf77b55cd4ac6247be633b6bd499"
+    },
+    {
+      "id": "novaai",
+      "title": "NovaAI Lab",
+      "description": "白色线缆、滚动形变与章节切换",
+      "directory": null,
+      "liveUrl": "https://novaai-deconstruction-scroll.vercel.app/",
+      "sourceStatus": "not-located"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+subject_definitions:
+<Image 1> defines Room 1: compact lunar laboratory, sparse flowers and broad leaves, clear floor, closed pressure door, panoramic windows, barren Moon, one Earth at upper left, and its lighting.
+<Image 2> defines Room 2: the same world with more wild plants, asymmetric consoles, greener lunar terrain, one Earth, panoramic windows, and a closed door.
+<Image 3> defines Room 3: heavily overgrown greenhouse-control chamber, Monstera and varied flowers, narrow path, partially terraformed Moon, one Earth, panoramic windows, and a closed final door.
+
+summary:
+[reference generation] Create a 15.00-second, 16:9, 24 FPS photorealistic single-take video for frame-accurate website scroll playback. Use <Image 1>, <Image 2>, and <Image 3> as strict anchors. The camera dollies straight through Room 1, the first pressure door opens left/right, it enters Room 2, the second door opens left/right, and it enters Room 3. Exactly two doors open; Room 3's final door stays closed.
+
+retention_analysis:
+<Image 1> (Room 1 architecture, equipment, plants, exterior, Earth, materials, lighting and color): fully_preserved — reproduce its recognizable room identity at the start.
+<Image 2> (Room 2 architecture, equipment, plants, exterior, Earth, materials, lighting and color): fully_preserved — reveal it only after crossing the first doorway.
+<Image 3> (Room 3 architecture, equipment, plants, exterior, Earth, materials, lighting and color): fully_preserved — reveal it only after crossing the second doorway and preserve its closed final door.
+
+detailed_description:
+Live-action cinematic science fiction with polished 2K detail. One uninterrupted physical take: no cut, dissolve, crossfade, flash, teleportation, morph, or lens change. The camera stays at eye height on the doorway axis and performs only a smooth monotonic physical Push In with constant focal length. No digital zoom, pan, tilt, roll, orbit, lateral drift, shake, focus pumping, reverse movement, or sudden acceleration.
+
+[Shot 1] At 0.00 seconds, begin inside <Image 1> with the same composition, room geometry, asymmetric laboratory equipment, window structure, plant placement, lunar terrain, single Earth position, exposure, and cool-blue / warm-gold light. The first pressure door is completely closed. From 0.00 to 3.10 seconds, advance slowly and steadily toward it. Preserve the room as a rigid physical environment: plants stay rooted, instruments do not move, the Earth and lunar horizon remain stable, and only natural spatial parallax changes with the camera. Use very low motion blur so every frame remains sharp when scrolling pauses.
+
+From 3.10 to 4.70 seconds, the first door unlocks and opens before the camera reaches it. The left door panel slides horizontally left into its wall pocket and the right panel slides horizontally right into its wall pocket, both at equal speed. The panels remain rigid, vertical, parallel, and mechanically coherent; they never swing, rotate, fold, dissolve, shrink, stretch, or transform into plants. The doorway becomes fully clear just before the camera arrives. The camera does not stop or change speed abruptly.
+
+From 4.70 to 5.20 seconds, pass through the doorway center. Its frames sweep close past both sides, creating clean foreground parallax. Room 2 is revealed physically ahead; never blend or morph the images.
+
+From 5.20 to 7.80 seconds, the camera travels through <Image 2>. Match its room layout, asymmetric equipment, approximately 40-percent interior vegetation, varied broad leaves and flower sizes, panoramic windows, lunar terrain, single Earth, brightness, and lighting. The second pressure door remains fully closed until the camera approaches. Maintain stable exposure and color continuity with Room 1.
+
+From 7.80 to 9.40 seconds, the second door opens with the same rigid horizontal mechanism: left panel slides left, right panel slides right, equal speed, no rotation and no deformation. Complete the opening before the camera arrives. Exactly two opening events occur in the entire video.
+
+From 9.40 to 9.90 seconds, pass through the second doorway on the center line with close frame parallax. Reveal Room 3 physically beyond it; never crossfade or transform rooms.
+
+From 9.90 to 15.00 seconds, continue forward through <Image 3>. Match its dense, asymmetric botanical overgrowth, giant Monstera and other broad leaves, highly varied flower sizes, partially obstructed windows and narrow path, approximately 50-percent vegetated lunar surface, same single Earth, and cool-blue / warm-gold cinematic illumination. The final pressure door remains completely closed for the rest of the video. During the last second, ease the dolly speed down only slightly without stopping, ending on a stable forward-facing composition.
+
+Web scroll requirements: preserve strict temporal continuity and a single forward direction; keep frame-to-frame geometry, exposure, colors, plant shapes, window reflections, Earth, lunar terrain, and door mechanics stable. Each frame must work as a clean still image when playback is paused. Avoid motion-smear, flicker, pulsing lights, exposure pumping, texture crawl, leaf jitter, duplicated or disappearing plants, warped walls, changing door dimensions, camera collisions, and occlusion of the central doorway during either crossing.
+
+Output only the cinematic scene as pure full-frame video. No people, astronauts, animals, vehicles, floating objects, text, letters, numbers, captions, subtitles, signs, labels, credits, logos, branding, watermark, HUD, interface, buttons, icons, progress bar, player controls, frame, border, split screen, or black bars.
+
+Clean polished video, low visual noise, restrained high-frequency detail, clean background, stable plant edges, smooth controlled gradients, coherent surfaces, no grain buildup, random speckles, paint smears, compression artifacts, moire, ringing, oversharpening, or noisy particles.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A

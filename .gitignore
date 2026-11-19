@@ -12,3 +12,9 @@ sites/planet/dist/
 sites/elastic-head/dist/
 sites/wardrobe/docs/hover-response/timing.json
 sites/wardrobe/docs/rail-contact/rail-regression.json
+sites/lunar-parallax/dist/
+sites/fs50p-watch/dist/
+sites/fs50p-watch/dist-offline/
+!sites/fs50p-watch/.openai/
+sites/fs50p-watch/.openai/*
+!sites/fs50p-watch/.openai/hosting.json
