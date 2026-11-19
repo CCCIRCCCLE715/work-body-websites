@@ -1,0 +1,25 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><style>body{margin:0;background:#e7ecf2;font:14px sans-serif}.labels{position:absolute;inset:0;pointer-events:none}.label{position:absolute;text-align:center;color:#394150}</style></head><body><div class="labels"></div><script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
+import { MeshoptDecoder } from 'three/examples/jsm/libs/meshopt_decoder.module.js';
+import { RoomEnvironment } from 'three/examples/jsm/environments/RoomEnvironment.js';
+import { buildRig, buildOutfitParts, animateRig } from '/src/avatar.js';
+import { extractHead } from '/src/avatar-head.js';
+import { OUTFITS } from '/src/outfits.js';
+const q=new URLSearchParams(location.search), ids=(q.get('ids')||Object.keys(OUTFITS).join(',')).split(',');
+const cols=4,cw=320,ch=400,rows=Math.ceil(ids.length/cols);
+const r=new THREE.WebGLRenderer({antialias:true});r.setSize(cols*cw,rows*ch);r.setScissorTest(true);r.toneMapping=THREE.NeutralToneMapping;r.outputColorSpace=THREE.SRGBColorSpace;document.body.append(r.domElement);
+const scene=new THREE.Scene();scene.background=new THREE.Color(0xe7ecf2);scene.environment=new THREE.PMREMGenerator(r).fromScene(new RoomEnvironment(),.04).texture;scene.environmentIntensity=.55;
+scene.add(new THREE.HemisphereLight(0xe4f0ff,0x9d8cc4,.95));const light=new THREE.DirectionalLight(0xfff0d8,2.3);light.position.set(-2,3,3);scene.add(light);
+const gltf=await new GLTFLoader().setMeshoptDecoder(MeshoptDecoder).loadAsync('/models/tripo/avatar_daily.glb');
+window.results=[];
+for(const [i,id] of ids.entries()){
+ const rig=buildRig(r);rig.setHead(extractHead(gltf.scene,r));scene.add(rig.root);const parts=buildOutfitParts(rig,OUTFITS[id]);rig.setLegVisible(!parts.longRobe);for(const k of Object.keys(rig.outfit))rig.outfit[k].add(parts[k]);
+ animateRig(rig,{walking:q.has('walk'),t:.18});
+ const cam=new THREE.PerspectiveCamera(28,cw/ch,.01,20);const a=+(q.get('angle')||0);cam.position.set(Math.sin(a)*2.7,.7,Math.cos(a)*2.7);cam.lookAt(0,.56,0);
+ r.setViewport(i%cols*cw,(rows-1-Math.floor(i/cols))*ch,cw,ch);r.setScissor(i%cols*cw,(rows-1-Math.floor(i/cols))*ch,cw,ch);r.render(scene,cam);
+ window.results.push({id,longRobe:parts.longRobe,forearms:parts.foreL.children.length,shins:parts.shinL.children.length});scene.remove(rig.root);
+ const label=document.createElement('div');label.className='label';label.style.cssText=`left:${i%cols*cw}px;top:${Math.floor(i/cols)*ch+ch-30}px;width:${cw}px`;label.textContent=id;document.querySelector('.labels').append(label);
+}
+window.done=true;
+</script></body></html>

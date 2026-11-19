@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#182026"><meta name="description" content="黄白的作品衣橱。把创作与不同身份，挂进同一间衣橱。">
+<title>HUANGBAI — 黄白的作品衣橱</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23F3FF00'/%3E%3Cg fill='none' stroke='black' stroke-width='4'%3E%3Ccircle cx='24' cy='32' r='15'/%3E%3Ccircle cx='42' cy='32' r='15'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css?v=work-covers-2">
+<script>
+(()=>{window.bootTime=performance.now();let p=0;window.setLoading=n=>{p=Math.max(p,Math.min(n,100));const e=document.getElementById('loading-number');if(e)e.textContent=Math.floor(p)};const t=setInterval(()=>{if(window.moduleStarted)clearInterval(t);else window.setLoading(p+(15-p)*.08)},60)})();
+</script>
+
+<script>window.runtimeErrors=[];addEventListener("error",e=>runtimeErrors.push(e.message));addEventListener("unhandledrejection",e=>runtimeErrors.push(String(e.reason)));</script>
+<script type="importmap">{"imports":{"three":"./vendor/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.186.1/examples/jsm/"}}</script>
+</head>
+<body>
+<svg class="filter-defs" aria-hidden="true"><defs><filter id="glass-inner" x="-20%" y="-30%" width="140%" height="180%"><feOffset in="SourceAlpha" dx="0" dy="-2" result="offset"/><feGaussianBlur in="offset" stdDeviation="1.2" result="blur"/><feComposite in="SourceAlpha" in2="blur" operator="out" result="edge"/><feFlood flood-color="#fff" flood-opacity=".65" result="light"/><feComposite in="light" in2="edge" operator="in"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode/></feMerge></filter></defs></svg>
+<div id="world" aria-label="黄白的三维作品衣橱"></div>
+<canvas id="grain" aria-hidden="true"></canvas>
+<div id="loader" role="status" aria-label="正在打开黄白的作品衣橱"><div class="loader-ring"><span id="loading-number">0</span><span class="percent">%</span></div><span class="loader-label">OPENING HUANGBAI’S WARDROBE</span></div>
+<header><button id="logo" aria-label="返回黄白的作品集首页"><span class="mark"><i></i><i></i></span></button><nav><a id="collection-link" href="collection.html">12 works ↗</a><button id="menu-button" aria-controls="menu-dialog">about</button><button id="cart-button" aria-controls="cart-dialog">// saved<span id="cart-count"></span></button></nav></header>
+<main id="hero" aria-label="黄白的作品集首页"><div id="poster">
+<div class="layer top-line" data-depth="0"><div class="entrance"><span id="headline-a">Wearable</span><br><span id="headline-b">Portfolio</span></div></div>
+<div class="layer brand-line" data-depth="1"><div class="entrance"><span class="glass-mark"><i></i><i></i></span><h1><span id="brand-name">HUANGBAI</span><sup></sup></h1></div></div>
+<div class="layer chips" data-depth="2"><div class="entrance"><span>12 works</span><span>Many roles</span><span>One creator</span></div></div>
+<div class="layer notes" data-depth="3"><div class="entrance"><span>Design</span><span>Code</span><span>Stories</span></div></div>
+<div class="layer store-link" data-depth="4"><div class="entrance"><button id="enter-link">Explore my work <span>↗</span></button></div></div>
+</div></main>
+<div id="hero-foot"><span>黄白的作品，换一种方式看。<br>十二件衣服，十二种创作身份。</span><button id="enter-button">Scroll to explore <span>↓</span></button><span class="edition">HUANGBAI’S WARDROBE<br>12 WORKS / ONE CREATOR</span></div>
+<section id="room-ui" aria-label="作品衣橱导航" inert><button id="back">← 返回首页</button><div id="room-heading"><span id="room-title">黄白的作品衣橱</span><span id="room-help">十二件作品 · 滑动旋转 · 点击查看作品</span></div><div id="compass" aria-hidden="true"><span>N</span><i></i><span>S</span></div><div id="rack-targets"></div><label class="piece-picker"><span>HUANGBAI / WORKS</span><select id="piece-select" aria-label="选择黄白的衣橱作品"></select></label><div id="caption" aria-live="polite"><span id="caption-name"></span><button id="view-piece">查看作品 ↗</button></div><span id="rack-help">滑动旋转 · 点击查看作品</span><nav id="tabs" aria-label="Collections"><div id="tab-ink"></div><button data-tab="store" aria-selected="true">首页</button><button data-tab="collection" aria-selected="false">全部作品</button><a href="collection.html">12 works ↗</a></nav><span class="room-foot">HUANGBAI / A WEARABLE PORTFOLIO</span></section>
+<dialog id="menu-dialog"><div class="dialog-head"><span class="mark"><i></i><i></i></span><button data-close>关闭 ×</button></div><div class="menu-body"><span class="eyebrow">ABOUT HUANGBAI</span><button data-collection="store">走进作品衣橱 <span>↗</span></button><a href="collection.html">十二件作品 <span>↗</span></a><p>我是黄白。<br>把不同创作身份，穿成一件件衣服。<br>在这里，换个角度看我的作品。</p></div><span class="dialog-foot">DIFFERENT ROLES. ONE HUANGBAI.</span></dialog>
+<dialog id="product-dialog"><div class="dialog-head"><span>HUANGBAI / WORK <span id="product-index"></span></span><button data-close>关闭 ×</button></div><div class="product-body"><div class="product-image"><img id="product-img" alt=""></div><div class="product-info"><span class="eyebrow" id="product-role">HUANGBAI / WORKS</span><h2 id="product-name"></h2><p id="product-garment"></p><p id="product-description">黄白的作品衣橱。</p><a class="yellow-button" id="watch-video" target="_blank" rel="noopener noreferrer">观看视频 ↗</a><button id="add-cart">收藏这件作品 ＋</button></div></div></dialog>
+<dialog id="cart-dialog"><div class="dialog-head"><span>我收藏的作品</span><button data-close>关闭 ×</button></div><div id="cart-items"></div><p class="cart-note">收藏保存在当前浏览器，方便下次回来继续看。</p><button class="yellow-button" id="continue-shopping">继续探索黄白的作品 ↗</button></dialog>
+<div id="error-panel" hidden><p>作品衣橱暂时未能打开。</p><p id="error-message"></p><button onclick="location.reload()">重新打开 ↗</button></div>
+<script type="module" src="app.js?v=hood-hanger-1"></script>
+</body></html>

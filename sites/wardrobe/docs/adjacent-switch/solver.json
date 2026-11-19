@@ -1,0 +1,7 @@
+{
+  "adjacentTransitions": 15,
+  "interruptedSwitches": 540,
+  "maximumYawErrorDegrees": 0.000004281350279697739,
+  "maximumHomeErrorMm": 2.220446049250313e-13,
+  "minimumClearanceMm": 7.999999999999466
+}

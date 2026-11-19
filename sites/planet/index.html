@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+
+<meta charset="UTF-8" />
+<script>window.addEventListener('error', function (e) { window.__err = String(e.message || e.error); }); window.addEventListener('unhandledrejection', function (e) { window.__err = String(e.reason && (e.reason.stack || e.reason)); });</script>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<meta name="theme-color" content="#030712" />
+<meta name="description" content="黄白的小星球：一颗装着 AI 电影、设计与代码作品的 3D 卡通星球。" />
+<title>黄白的小星球</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='22' fill='%237cce62'/%3E%3Cpath d='M14 30q10-8 18 0t20-2v8q-10 8-20 0t-18 2z' fill='%234fb2b4'/%3E%3Ccircle cx='48' cy='14' r='5' fill='%23ffe28a'/%3E%3C/svg%3E" />
+<link rel="preload" href="/images/planet-title-v3.png" as="image" />
+<link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+<div id="app">
+  <canvas id="planet" tabindex="0" aria-label="三维小星球：拖动旋转，滚轮缩放，点击空地行走，点击地标走近并自动换装"></canvas>
+  <div id="pins" aria-hidden="true"></div>
+  <div id="hover-label" hidden><small>探索作品</small><strong></strong></div>
+
+  <header class="header">
+    <a class="brand" href="#" id="brand" aria-label="回到星球全景">
+      <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="9"/><ellipse cx="16" cy="16" rx="15" ry="5" transform="rotate(-28 16 16)"/><circle cx="26" cy="5" r="1.5" fill="currentColor" stroke="none"/></svg></span>
+      <span>黄白的小星球<small>A SMALL WORLD OF WORK</small></span>
+    </a>
+    <button class="outfit-chip" id="outfit-chip" title="换回日常形象"><span class="dot"></span><span id="outfit-name">日常黄白</span><span class="arrow"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 8a8 8 0 1 1 .7 9M4 3v5h5"/></svg></span></button>
+  </header>
+
+  <section class="intro" id="intro">
+    <div class="eyebrow">HUANGBAI / PORTFOLIO</div>
+    <h1 class="title-art" aria-label="把作品放进一颗星球">
+      <svg class="title-defs" width="0" height="0" aria-hidden="true" focusable="false"><defs><filter id="portfolio-title-core" color-interpolation-filters="sRGB"><feComponentTransfer><feFuncA type="gamma" amplitude="1" exponent="2.2" offset="0" /></feComponentTransfer></filter></defs></svg>
+      <svg viewBox="100 195 1340 290" aria-hidden="true" focusable="false"><image href="/images/planet-title-v3.png" width="1536" height="1024" filter="url(#portfolio-title-core)" /></svg>
+      <svg viewBox="100 490 1340 370" aria-hidden="true" focusable="false"><image href="/images/planet-title-v3.png" width="1536" height="1024" filter="url(#portfolio-title-core)" /></svg>
+    </h1>
+    <p>电影、设计、代码，和一些突发奇想。
+十二个作品，十二处地标。</p>
+    <button class="primary" id="explore">开始漫游 <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></button>
+    <div class="hint"><span>✳</span>拖动旋转 · 滚轮或双指缩放 · 点击地面行走</div>
+  </section>
+
+  <section class="panel project" id="project" hidden aria-label="作品详情">
+    <div class="project-header">
+      <div class="eyebrow" id="project-index"></div>
+      <button class="project-dismiss" id="project-close" aria-label="关闭作品详情"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
+    </div>
+    <div class="project-summary" id="project-summary">
+      <a class="project-cover" id="project-cover-link" target="_blank" rel="noopener noreferrer" hidden>
+        <img id="project-cover" decoding="async" alt="" />
+      </a>
+      <div class="project-copy">
+        <h2 id="project-name"></h2>
+        <p id="project-desc"></p>
+        <a class="project-work" id="project-work" target="_blank" rel="noopener noreferrer">
+          <span id="project-work-title"></span><strong>打开作品 <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></strong>
+        </a>
+      </div>
+    </div>
+    <div class="actions">
+      <button class="primary" id="look-close">靠近看看 <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="5.5"/><path d="m15 15 4 4"/></svg></button>
+      <button class="text-btn" id="view-interior" aria-pressed="false" hidden>查看内部</button>
+    </div>
+  </section>
+
+  <div class="tools" aria-label="场景控制">
+    <button id="zoom-out" aria-label="缩小"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14"/></svg></button>
+    <button id="zoom-in" aria-label="放大"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14M12 5v14"/></svg></button>
+    <span class="sep"></span>
+    <button id="reset" aria-label="恢复全景" title="恢复全景"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 8a8 8 0 1 1 .7 9M4 3v5h5"/></svg></button>
+    <button id="rotate" aria-label="自动旋转" title="自动旋转" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8" stroke-dasharray="2 3"/></svg></button>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <div id="loading"><div class="loader"><span class="orbit"><i></i></span><p id="loading-text">正在靠近星球</p><div class="bar"><b id="loading-bar"></b></div></div></div>
+</div>
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>

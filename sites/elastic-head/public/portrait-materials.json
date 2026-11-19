@@ -1,0 +1,297 @@
+[
+  {
+    "key": "rest",
+    "label": "正面常态",
+    "category": "gaze"
+  },
+  {
+    "key": "closed",
+    "label": "双眼闭合",
+    "category": "gaze"
+  },
+  {
+    "key": "half",
+    "label": "半闭眼",
+    "category": "gaze"
+  },
+  {
+    "key": "right",
+    "label": "向屏幕右看",
+    "category": "gaze"
+  },
+  {
+    "key": "ene",
+    "label": "向右偏上看",
+    "category": "gaze"
+  },
+  {
+    "key": "upright",
+    "label": "向右上看",
+    "category": "gaze"
+  },
+  {
+    "key": "nne",
+    "label": "向上偏右看",
+    "category": "gaze"
+  },
+  {
+    "key": "up",
+    "label": "向正上方看",
+    "category": "gaze"
+  },
+  {
+    "key": "nnw",
+    "label": "向上偏左看",
+    "category": "gaze"
+  },
+  {
+    "key": "upleft",
+    "label": "向左上看",
+    "category": "gaze"
+  },
+  {
+    "key": "wnw",
+    "label": "向左偏上看",
+    "category": "gaze"
+  },
+  {
+    "key": "left",
+    "label": "向屏幕左看",
+    "category": "gaze"
+  },
+  {
+    "key": "wsw",
+    "label": "向左偏下看",
+    "category": "gaze"
+  },
+  {
+    "key": "downleft",
+    "label": "向左下看",
+    "category": "gaze"
+  },
+  {
+    "key": "ssw",
+    "label": "向下偏左看",
+    "category": "gaze"
+  },
+  {
+    "key": "down",
+    "label": "向正下方看",
+    "category": "gaze"
+  },
+  {
+    "key": "sse",
+    "label": "向下偏右看",
+    "category": "gaze"
+  },
+  {
+    "key": "downright",
+    "label": "向右下看",
+    "category": "gaze"
+  },
+  {
+    "key": "ese",
+    "label": "向右偏下看",
+    "category": "gaze"
+  },
+  {
+    "key": "cross",
+    "label": "斗鸡眼",
+    "category": "expression"
+  },
+  {
+    "key": "shock",
+    "label": "惊讶",
+    "category": "expression"
+  },
+  {
+    "key": "tongue",
+    "label": "吐舌头",
+    "category": "expression"
+  },
+  {
+    "key": "angry",
+    "label": "生气",
+    "category": "expression"
+  },
+  {
+    "key": "scrunch",
+    "label": "皱脸",
+    "category": "expression"
+  },
+  {
+    "key": "winkr",
+    "label": "画面右眼眨眼",
+    "category": "expression"
+  },
+  {
+    "key": "winkl",
+    "label": "画面左眼眨眼",
+    "category": "expression"
+  },
+  {
+    "key": "raised",
+    "label": "委屈抬眉",
+    "category": "expression"
+  },
+  {
+    "key": "puff",
+    "label": "鼓腮",
+    "category": "expression"
+  },
+  {
+    "key": "laugh",
+    "label": "开怀大笑",
+    "category": "expression"
+  },
+  {
+    "key": "yawn",
+    "label": "哈欠最大",
+    "category": "expression"
+  },
+  {
+    "key": "grin",
+    "label": "露齿笑",
+    "category": "expression"
+  },
+  {
+    "key": "kiss",
+    "label": "嘟嘴亲吻",
+    "category": "expression"
+  },
+  {
+    "key": "cry",
+    "label": "哭泣",
+    "category": "expression"
+  },
+  {
+    "key": "smug",
+    "label": "得意",
+    "category": "expression"
+  },
+  {
+    "key": "scared",
+    "label": "害怕",
+    "category": "expression"
+  },
+  {
+    "key": "fish",
+    "label": "鱼嘴",
+    "category": "expression"
+  },
+  {
+    "key": "blue",
+    "label": "蓝色头发",
+    "category": "hair"
+  },
+  {
+    "key": "dizzy",
+    "label": "眩晕",
+    "category": "expression"
+  },
+  {
+    "key": "blonde",
+    "label": "金色头发",
+    "category": "hair"
+  },
+  {
+    "key": "pink",
+    "label": "粉色头发",
+    "category": "hair"
+  },
+  {
+    "key": "wind",
+    "label": "头发被吹",
+    "category": "hair"
+  },
+  {
+    "key": "ouch",
+    "label": "疼痛",
+    "category": "expression"
+  },
+  {
+    "key": "deadpan",
+    "label": "无语",
+    "category": "expression"
+  },
+  {
+    "key": "yawn1",
+    "label": "哈欠准备",
+    "category": "expression"
+  },
+  {
+    "key": "yawn2",
+    "label": "哈欠中途",
+    "category": "expression"
+  },
+  {
+    "key": "whistle1",
+    "label": "吹口哨一",
+    "category": "expression"
+  },
+  {
+    "key": "yawn4",
+    "label": "哈欠结束",
+    "category": "expression"
+  },
+  {
+    "key": "sneeze1",
+    "label": "喷嚏前",
+    "category": "expression"
+  },
+  {
+    "key": "gum1",
+    "label": "嚼口香糖",
+    "category": "expression"
+  },
+  {
+    "key": "gum2",
+    "label": "小泡泡",
+    "category": "expression"
+  },
+  {
+    "key": "whistle2",
+    "label": "吹口哨二",
+    "category": "expression"
+  },
+  {
+    "key": "sneeze2",
+    "label": "打喷嚏瞬间",
+    "category": "expression"
+  },
+  {
+    "key": "gum3",
+    "label": "大泡泡",
+    "category": "expression"
+  },
+  {
+    "key": "gumpop",
+    "label": "泡泡破裂",
+    "category": "expression"
+  },
+  {
+    "key": "hearts",
+    "label": "心形瞳孔",
+    "category": "expression"
+  },
+  {
+    "key": "stars",
+    "label": "星形瞳孔",
+    "category": "expression"
+  },
+  {
+    "key": "snore",
+    "label": "闭眼打鼾",
+    "category": "expression"
+  },
+  {
+    "key": "shy",
+    "label": "害羞",
+    "category": "expression"
+  },
+  {
+    "key": "sick",
+    "label": "恶心",
+    "category": "expression"
+  }
+]

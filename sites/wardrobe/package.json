@@ -1,0 +1,9 @@
+{
+  "name": "work-body-wardrobe",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 4187 --bind 127.0.0.1 --directory dist",
+    "test": "node --test scripts/check-adjacent-switch.mjs scripts/check-hover-response.mjs scripts/check-neckline-fit.mjs scripts/check-rail-clearance.mjs scripts/check-wizard-hanger.mjs"
+  }
+}

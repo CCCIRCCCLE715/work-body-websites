@@ -1,0 +1,50 @@
+// Twelve portfolio landmarks. Bounds come from the packaged web GLBs (base at y=0, facing +Z).
+// Heading is a fixed tangent-plane rotation in degrees; it never follows the camera.
+// Landmarks, avatar and plants are sized at ~1/1.4 of the first version so the planet reads larger.
+export const LANDMARKS = [
+  { id: 'emperor', heading: 0, view: [0, 38], model: 'emperor', hd: 'emperor-detail', kind: 'building', scale: 3.55, bounds: [0.471, 0.666, 0.49],
+    name: '龙椅台阶', category: 'AI 古装电影 · 导演 / 美术', title: 'AI 让我当皇上', role: '皇帝',
+    description: '露天龙椅和几级台阶，对应「AI 让我当皇上」。靠近它，黄白会换上皇帝装，走进自己的古装故事。' },
+  { id: 'scholar', heading: 69, view: [0, 32], model: 'scholar', hd: 'scholar-detail', kind: 'building', scale: 3.55, bounds: [0.466, 0.979, 0.428],
+    name: '古代凉亭', category: '国风叙事短片 · 编剧', title: '古风场景与叙事', role: '书生',
+    description: '绿瓦、红柱和暖色灯笼，留出一处安静的国风角落。走到凉亭旁，黄白会换上书生装。' },
+  { id: 'survivor', heading: -35, view: [0, 28], model: 'survivor', hd: 'survivor-detail', kind: 'building', scale: 3.55, bounds: [0.49, 0.857, 0.48],
+    name: '末日小超市', category: '末日题材短片 · 世界观设计', title: '手机实拍变电影', role: '末日幸存者',
+    description: '藤蔓爬上屋檐，暖灯照着货架与门前的植物。末日题材短片里的紧张感，在这里变成一间仍有生活气息的小店。' },
+  { id: 'director', heading: -21, view: [15, 32], model: 'director', hd: 'director-detail', kind: 'prop', scale: 1.36, bounds: [0.348, 0.981, 0.272],
+    name: '电影摄影机', category: 'AI 电影 · 导演作品集', title: 'AI 如何做出电影感大片', role: '导演',
+    description: '复古摄影机和胶片卷，对应 AI 电影创作。从分镜、画面生成到剪辑，探索如何做出有电影感的镜头。' },
+  { id: 'drama_lead', heading: 21, view: [8, 40], model: 'drama_lead', hd: 'drama_lead-detail', kind: 'prop', scale: 1.36, bounds: [0.49, 0.707, 0.296],
+    name: '短剧卷轴', category: '竖屏短剧 · 主演 / 编剧', title: 'AI 短剧制作教程', role: '短剧男主',
+    description: '摊开的卷轴和小书案，对应 AI 短剧制作教程。故事、镜头和人物造型，都从一份剧本开始。' },
+  { id: 'designer', heading: -69, view: [0, 30], model: 'designer', hd: 'designer-detail', kind: 'prop', scale: 1.36, bounds: [0.458, 0.98, 0.389],
+    name: '设计色卡', category: '视觉设计 · 品牌与插画', title: '一个 Skill 提升设计审美', role: '设计师',
+    description: '色卡、苹果和绘画工具，对应提升设计审美的 Skill 教程。靠近后换上设计师装，从配色开始观察画面。' },
+  { id: 'phone_steward', heading: -173, view: [0, 25], model: 'phone_steward', hd: 'phone_steward-detail', kind: 'prop', scale: 1.36, bounds: [0.392, 0.979, 0.34],
+    name: '口袋手机', category: '产品设计 · AI 助手', title: '把手机交给 AI', role: '手机管家',
+    description: '站在充电座上的小手机，对应「把手机交给 AI，自动帮我干活」。黄白会换上管家装，带着手机继续探索。' },
+  { id: 'programmer', heading: 35, view: [15, 35], model: 'programmer', hd: 'programmer-detail', kind: 'prop', scale: 1.36, bounds: [0.49, 0.86, 0.468],
+    name: '代码晶体', category: '创意编程 · WebGL', title: '用代码搭建 3D 星球', role: '程序员',
+    description: '发光晶体与代码纹路，代表网页实验和创意编程。这颗可以漫游、换装的小星球，也是一次用代码搭建世界的尝试。' },
+  { id: 'curator', heading: 173, view: [12, 48], model: 'curator', hd: 'curator-detail', kind: 'prop', scale: 1.36, bounds: [0.483, 0.565, 0.49],
+    name: '拌面野餐桌', category: '美食内容 · 策展', title: '云栖大会一日馆长', role: '拌面主理人',
+    description: '野餐桌上的拌面，来自云栖大会一日馆长的视频封面。把那碗面放到星球上，也给漫游留一个歇脚的地方。' },
+  { id: 'wizard', heading: -77, view: [0, 25], model: 'wizard', hd: 'wizard-detail', kind: 'prop', scale: 1.25, bounds: [0.314, 0.98, 0.297],
+    name: '巫师玩偶', category: '3D 角色 · 潮玩设计', title: 'AI 生成电影级大片', role: '巫师',
+    description: '紫色尖帽和星星魔杖，呼应 AI 电影教程里的巫师形象。走近玩偶，黄白也会换上同款巫师装。' },
+  { id: 'racer', heading: 60, view: [24, 32], model: 'racer', hd: 'racer-detail', kind: 'prop', scale: 1.36, bounds: [0.358, 0.483, 0.49],
+    name: '橙色赛车', category: '动画短片 · 角色与动效', title: '0 基础做出赛车游戏', role: '赛车手',
+    description: '橙色小赛车，对应从零开始做赛车游戏的 vibe coding 挑战。轮胎、尾翼和赛道标记，都用代码搭出来。' },
+  { id: 'planner', heading: 77, view: [0, 30], model: 'planner', hd: 'planner-detail', kind: 'prop', scale: 1.36, bounds: [0.489, 0.845, 0.251],
+    name: 'AI 规划座椅', category: 'AI 工作流 · 规划', title: '让 AI 帮我做人生规划', role: 'AI 规划师',
+    description: '弧形长椅和悬浮信息卡，对应让 AI 读取消息记录、辅助人生规划的尝试。黄白会换上规划师装，带着平板整理想法。' },
+];
+
+export const ABOUT = {
+  name: '黄白',
+  lines: [
+    '做 AI 电影、视觉设计和一点代码。',
+    '相信好作品要慢慢做，也相信偶尔可以很好玩。',
+    '这颗星球上的每一处地标，都是我做过的一件事。',
+  ],
+};

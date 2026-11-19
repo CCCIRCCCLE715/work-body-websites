@@ -1,0 +1,39 @@
+{
+  "frames": 59,
+  "fixed_shape_frames": 49,
+  "fixed_alpha_hashes": 1,
+  "fixed_edge_rgb_identical": true,
+  "components": 1,
+  "holes": 0,
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "forced_symmetry": false,
+  "face_texture_warp": false,
+  "original_reference_registration": {
+    "matrix": [
+      [
+        1.6332278196025145,
+        -7.221972014374544e-05,
+        0.1647198449916506
+      ],
+      [
+        7.221972014374544e-05,
+        1.6332278196025145,
+        0.10647436191394426
+      ]
+    ],
+    "matches": 544,
+    "inliers": 514,
+    "rmse": 0.6070051193237305
+  },
+  "curve_fit": {
+    "source": "123.png",
+    "samples": 1514,
+    "fit_p99_px_at_2048": 1.6824703402838983,
+    "fit_max_px_at_2048": 2.9523072468209204,
+    "forced_symmetry": false,
+    "face_texture_warp": false
+  }
+}

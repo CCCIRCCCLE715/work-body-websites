@@ -1,0 +1,656 @@
+{
+  "modelFamilies": 13,
+  "glbFiles": 46,
+  "originalFiles": 17,
+  "webFiles": 29,
+  "embeddedTexturesVerified": true,
+  "models": [
+    {
+      "path": "models/original/avatar_daily.glb",
+      "name": "日常黄白",
+      "version": "original",
+      "bytes": 2906940,
+      "triangles": 15904,
+      "embeddedImages": 3,
+      "extensions": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+      ],
+      "sha256": "cbb1ee84189c8f1c7697683f046e4aa46f62f147c899ee2bad577052dd228917"
+    },
+    {
+      "path": "models/original/avatar_detail.glb",
+      "name": "日常黄白",
+      "version": "original",
+      "bytes": 8654092,
+      "triangles": 46684,
+      "embeddedImages": 3,
+      "extensions": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+      ],
+      "sha256": "cbe0f0952dfa2480aeb7a7a588e97eb6b0319ee50b217bffe72abf9278693ed3"
+    },
+    {
+      "path": "models/original/curator.glb",
+      "name": "拌面野餐桌",
+      "version": "original",
+      "bytes": 2821284,
+      "triangles": 15072,
+      "embeddedImages": 3,
+      "extensions": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+      ],
+      "sha256": "eb76b37a8210d568bdb39382e2256f65a740e14ec1163617d07cc2be35c0b5ff"
+    },
+    {
+      "path": "models/original/designer.glb",
+      "name": "设计色卡与苹果",
+      "version": "original",
+      "bytes": 2277800,
+      "triangles": 15516,
+      "embeddedImages": 3,
+      "extensions": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+      ],
+      "sha256": "60556a221cdaeaf61df80445b89cbf1479153ef95e645f365fec889b78ca020a"
+    },
+    {
+      "path": "models/original/director.glb",
+      "name": "电影摄影机",
+      "version": "original",
+      "bytes": 2808184,
+      "triangles": 15081,
+      "embeddedImages": 3,
+      "extensions": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+      ],
+      "sha256": "05fd7993b7318dd061c35b32bbb8737e3142f35f7744aa76c4f5f8cbb99e873c"
+    },
+    {
+      "path": "models/original/drama_lead.glb",
+      "name": "短剧卷轴书案",
+      "version": "original",
+      "bytes": 2652460,
+      "triangles": 15125,
+      "embeddedImages": 3,
+      "extensions": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+      ],
+      "sha256": "300f5a2f775d0499a055a7db123a56cc076cff183e7bb548275b8d2068075af7"
+    },
+    {
+      "path": "models/original/emperor.glb",
+      "name": "龙椅台阶",
+      "version": "original",
+      "bytes": 62032668,
+      "triangles": 1981930,
+      "embeddedImages": 3,
+      "extensions": [],
+      "sha256": "e72961349b12189cd198aae9b53207a9de24c745add372afc09ef30339e582ce"
+    },
+    {
+      "path": "models/original/emperor_detail.glb",
+      "name": "龙椅台阶",
+      "version": "original",
+      "bytes": 8951424,
+      "triangles": 47581,
+      "embeddedImages": 3,
+      "extensions": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+      ],
+      "sha256": "8777d9989e5a0efee920d2bc8e44d90fe480fc0514a6a386c1d34980dc45081f"
+    },
+    {
+      "path": "models/original/phone_steward.glb",
+      "name": "手机控制台",
+      "version": "original",
+      "bytes": 2455176,
+      "triangles": 15505,
+      "embeddedImages": 3,
+      "extensions": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+      ],
+      "sha256": "1d0c9f4d9cc2639bd866ac761d90fa85022f2daa2ed48b99c303a1e23d593074"
+    },
+    {
+      "path": "models/original/planner.glb",
+      "name": "AI规划座椅",
+      "version": "original",
+      "bytes": 2810916,
+      "triangles": 15413,
+      "embeddedImages": 3,
+      "extensions": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+      ],
+      "sha256": "4589318c82ecfd996fe20781895feaba860d478514e85587996b2eef137f74b1"
+    },
+    {
+      "path": "models/original/programmer.glb",
+      "name": "代码晶体",
+      "version": "original",
+      "bytes": 2693240,
+      "triangles": 15158,
+      "embeddedImages": 3,
+      "extensions": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+      ],
+      "sha256": "62982eb20b8ff9984599573587585df8d30006092ac3bac051e9c65c1624dcce"
+    },
+    {
+      "path": "models/original/racer.glb",
+      "name": "橙色赛车",
+      "version": "original",
+      "bytes": 2552828,
+      "triangles": 15716,
+      "embeddedImages": 3,
+      "extensions": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+      ],
+      "sha256": "efe23bba951e145005511b91c822596fcb890b4f4cf3c75b917ce879198cd35b"
+    },
+    {
+      "path": "models/original/scholar.glb",
+      "name": "古代凉亭",
+      "version": "original",
+      "bytes": 976984,
+      "triangles": 15330,
+      "embeddedImages": 3,
+      "extensions": [],
+      "sha256": "9bbd7498923682bedd973ebd4e613ec833381482f7d155d13b195b9bac160931"
+    },
+    {
+      "path": "models/original/scholar_detail.glb",
+      "name": "古代凉亭",
+      "version": "original",
+      "bytes": 9384872,
+      "triangles": 44575,
+      "embeddedImages": 3,
+      "extensions": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+      ],
+      "sha256": "7c612f3e12a34a2ebcda6042e650b431c3c2c757b6939a0f6f4023a9418196e1"
+    },
+    {
+      "path": "models/original/survivor.glb",
+      "name": "末日小超市",
+      "version": "original",
+      "bytes": 1074572,
+      "triangles": 14496,
+      "embeddedImages": 3,
+      "extensions": [],
+      "sha256": "5326e314f041ac2a1d46513fd5794537d22431ea828974fe6432e7afcff49c01"
+    },
+    {
+      "path": "models/original/survivor_detail.glb",
+      "name": "末日小超市",
+      "version": "original",
+      "bytes": 9748584,
+      "triangles": 44888,
+      "embeddedImages": 3,
+      "extensions": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+      ],
+      "sha256": "9c2571a104b09596fd416870767b08864f17f8252b5b0719f2ef5cc43dc18ca7"
+    },
+    {
+      "path": "models/original/wizard.glb",
+      "name": "巫师玩偶",
+      "version": "original",
+      "bytes": 2633768,
+      "triangles": 15819,
+      "embeddedImages": 3,
+      "extensions": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+      ],
+      "sha256": "a900a142238fabf085bc55b0ec8cda4aa89bbf3f3d572642a7dc1e410982c480"
+    },
+    {
+      "path": "models/web/avatar_daily-desktop.glb",
+      "name": "日常黄白",
+      "version": "web",
+      "bytes": 1076868,
+      "triangles": 46684,
+      "embeddedImages": 3,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "EXT_texture_webp",
+        "KHR_materials_volume",
+        "KHR_mesh_quantization"
+      ],
+      "sha256": "0334c34e18400b2df27b6ec4a33695b2b3191ada341552978fc70eda7789b070"
+    },
+    {
+      "path": "models/web/avatar_daily.glb",
+      "name": "日常黄白",
+      "version": "web",
+      "bytes": 644660,
+      "triangles": 46684,
+      "embeddedImages": 3,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "EXT_texture_webp",
+        "KHR_materials_volume",
+        "KHR_mesh_quantization"
+      ],
+      "sha256": "dda00cfa95461c4995cb8aef7193307b9bbda19b5f4a13d65b24df674f8e041e"
+    },
+    {
+      "path": "models/web/curator-detail.glb",
+      "name": "拌面野餐桌",
+      "version": "web",
+      "bytes": 446068,
+      "triangles": 15072,
+      "embeddedImages": 3,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "EXT_texture_webp",
+        "KHR_materials_volume",
+        "KHR_mesh_quantization"
+      ],
+      "sha256": "ad27e1eb9f11dad7c7b3f20d5dd4e25be5c501f28438fb473feac405081cf96d"
+    },
+    {
+      "path": "models/web/curator.glb",
+      "name": "拌面野餐桌",
+      "version": "web",
+      "bytes": 282604,
+      "triangles": 15072,
+      "embeddedImages": 3,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "EXT_texture_webp",
+        "KHR_materials_volume",
+        "KHR_mesh_quantization"
+      ],
+      "sha256": "213d916f4bb0952243e07beb16be43f8d5a58c1dac741bb2a6fe9468f2cf3571"
+    },
+    {
+      "path": "models/web/designer-detail.glb",
+      "name": "设计色卡与苹果",
+      "version": "web",
+      "bytes": 309396,
+      "triangles": 15516,
+      "embeddedImages": 3,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "EXT_texture_webp",
+        "KHR_materials_volume",
+        "KHR_mesh_quantization"
+      ],
+      "sha256": "1af8b38e68e7714f1fe9be702cdb4f3d3eec69f2c4fcb853a5ad7ebe77cc5e00"
+    },
+    {
+      "path": "models/web/designer.glb",
+      "name": "设计色卡与苹果",
+      "version": "web",
+      "bytes": 206672,
+      "triangles": 15516,
+      "embeddedImages": 3,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "EXT_texture_webp",
+        "KHR_materials_volume",
+        "KHR_mesh_quantization"
+      ],
+      "sha256": "5be149dc39ec2a1d2a2cf14a49c9914f9a4525cbe5bf7e3753f585d071ad1a62"
+    },
+    {
+      "path": "models/web/director-detail.glb",
+      "name": "电影摄影机",
+      "version": "web",
+      "bytes": 423648,
+      "triangles": 15081,
+      "embeddedImages": 3,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "EXT_texture_webp",
+        "KHR_materials_volume",
+        "KHR_mesh_quantization"
+      ],
+      "sha256": "30dca45759673dba12f68b099bbf6aa2dacee0861652d342227da474d7fcecf6"
+    },
+    {
+      "path": "models/web/director.glb",
+      "name": "电影摄影机",
+      "version": "web",
+      "bytes": 265088,
+      "triangles": 15081,
+      "embeddedImages": 3,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "EXT_texture_webp",
+        "KHR_materials_volume",
+        "KHR_mesh_quantization"
+      ],
+      "sha256": "77d6122221512e552ce128fe54a23a7aa974823ff3e9635922459a24bb58f98e"
+    },
+    {
+      "path": "models/web/drama_lead-detail.glb",
+      "name": "短剧卷轴书案",
+      "version": "web",
+      "bytes": 445768,
+      "triangles": 15125,
+      "embeddedImages": 3,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "EXT_texture_webp",
+        "KHR_materials_volume",
+        "KHR_mesh_quantization"
+      ],
+      "sha256": "28e20ff58d250d30f49a436528f564dceb8d29cea566d6108203a5c78fc70a36"
+    },
+    {
+      "path": "models/web/drama_lead.glb",
+      "name": "短剧卷轴书案",
+      "version": "web",
+      "bytes": 275252,
+      "triangles": 15125,
+      "embeddedImages": 3,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "EXT_texture_webp",
+        "KHR_materials_volume",
+        "KHR_mesh_quantization"
+      ],
+      "sha256": "3d4ae05604ac1f6a8ded59ee244393cfefc12710ab162832325a08df1047c6dd"
+    },
+    {
+      "path": "models/web/emperor-desktop.glb",
+      "name": "龙椅台阶",
+      "version": "web",
+      "bytes": 1073324,
+      "triangles": 47581,
+      "embeddedImages": 3,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "EXT_texture_webp",
+        "KHR_materials_volume",
+        "KHR_mesh_quantization"
+      ],
+      "sha256": "c03348db470bb79e0fedfe2b5728bdefc8f7dde31c5180c2f1932ecd3e1057d1"
+    },
+    {
+      "path": "models/web/emperor-detail.glb",
+      "name": "龙椅台阶",
+      "version": "web",
+      "bytes": 685132,
+      "triangles": 47581,
+      "embeddedImages": 3,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "EXT_texture_webp",
+        "KHR_materials_volume",
+        "KHR_mesh_quantization"
+      ],
+      "sha256": "a5f207c02b258910fb894aea1df17704c9c9e8479eb14719ace0be54253901c8"
+    },
+    {
+      "path": "models/web/emperor.glb",
+      "name": "龙椅台阶",
+      "version": "web",
+      "bytes": 493624,
+      "triangles": 47581,
+      "embeddedImages": 3,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "EXT_texture_webp",
+        "KHR_materials_volume",
+        "KHR_mesh_quantization"
+      ],
+      "sha256": "09c706e0b7e75f708b5e1164c102613a5c66b59433d0abbcff15cc9a6383ab7d"
+    },
+    {
+      "path": "models/web/phone_steward-detail.glb",
+      "name": "手机控制台",
+      "version": "web",
+      "bytes": 373556,
+      "triangles": 15505,
+      "embeddedImages": 3,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "EXT_texture_webp",
+        "KHR_materials_volume",
+        "KHR_mesh_quantization"
+      ],
+      "sha256": "f8896ded94d3c23153ff98fb481497dd01dd583082b61ab17947cf3ba1facab1"
+    },
+    {
+      "path": "models/web/phone_steward.glb",
+      "name": "手机控制台",
+      "version": "web",
+      "bytes": 233312,
+      "triangles": 15505,
+      "embeddedImages": 3,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "EXT_texture_webp",
+        "KHR_materials_volume",
+        "KHR_mesh_quantization"
+      ],
+      "sha256": "3b4cbff9f11bf8f6227d0be6d2a55a29d9d5ea087092a5f5ee9ae072a4f9a0a2"
+    },
+    {
+      "path": "models/web/planner-detail.glb",
+      "name": "AI规划座椅",
+      "version": "web",
+      "bytes": 387588,
+      "triangles": 15413,
+      "embeddedImages": 3,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "EXT_texture_webp",
+        "KHR_materials_volume",
+        "KHR_mesh_quantization"
+      ],
+      "sha256": "d1c86c004eec7b2dce59b1bdb533dce32986324e78a97d52b0ae330a1d868c47"
+    },
+    {
+      "path": "models/web/planner.glb",
+      "name": "AI规划座椅",
+      "version": "web",
+      "bytes": 247700,
+      "triangles": 15413,
+      "embeddedImages": 3,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "EXT_texture_webp",
+        "KHR_materials_volume",
+        "KHR_mesh_quantization"
+      ],
+      "sha256": "8f3e15738b7d32b869a10db86fdaef7da94151f234556ed08ba6196b6989c78a"
+    },
+    {
+      "path": "models/web/programmer-detail.glb",
+      "name": "代码晶体",
+      "version": "web",
+      "bytes": 389480,
+      "triangles": 15158,
+      "embeddedImages": 3,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "EXT_texture_webp",
+        "KHR_materials_volume",
+        "KHR_mesh_quantization"
+      ],
+      "sha256": "6001719af31c1dcb01f3614dd7596f1c4afc6e5bfecda1e28ba089f9e27cc6c8"
+    },
+    {
+      "path": "models/web/programmer.glb",
+      "name": "代码晶体",
+      "version": "web",
+      "bytes": 246648,
+      "triangles": 15158,
+      "embeddedImages": 3,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "EXT_texture_webp",
+        "KHR_materials_volume",
+        "KHR_mesh_quantization"
+      ],
+      "sha256": "cb4adcaf533b9830c17ebc8a8a6cabb151bd23adaa8a392f40857d8a8439eb84"
+    },
+    {
+      "path": "models/web/racer-detail.glb",
+      "name": "橙色赛车",
+      "version": "web",
+      "bytes": 413780,
+      "triangles": 15716,
+      "embeddedImages": 3,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "EXT_texture_webp",
+        "KHR_materials_volume",
+        "KHR_mesh_quantization"
+      ],
+      "sha256": "49b6b84a213df1dec0efd315faf5ecfabd9d081bbadddaea1fcdca1b0a3a2f21"
+    },
+    {
+      "path": "models/web/racer.glb",
+      "name": "橙色赛车",
+      "version": "web",
+      "bytes": 253456,
+      "triangles": 15716,
+      "embeddedImages": 3,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "EXT_texture_webp",
+        "KHR_materials_volume",
+        "KHR_mesh_quantization"
+      ],
+      "sha256": "ac55eefa3b6a818b8ba3ad57a4234345772efcb22c987d2928557c04f14ea37a"
+    },
+    {
+      "path": "models/web/scholar-desktop.glb",
+      "name": "古代凉亭",
+      "version": "web",
+      "bytes": 1337704,
+      "triangles": 44575,
+      "embeddedImages": 3,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "EXT_texture_webp",
+        "KHR_materials_volume",
+        "KHR_mesh_quantization"
+      ],
+      "sha256": "214af108d8844833951b22e7d360ab864a972aa16087a7d87967365f5d3ab9ce"
+    },
+    {
+      "path": "models/web/scholar-detail.glb",
+      "name": "古代凉亭",
+      "version": "web",
+      "bytes": 835492,
+      "triangles": 44575,
+      "embeddedImages": 3,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "EXT_texture_webp",
+        "KHR_materials_volume",
+        "KHR_mesh_quantization"
+      ],
+      "sha256": "df893d99263c2f2b91602c68a8de2d4518d8fdb01ab831b1d3349982774f1abc"
+    },
+    {
+      "path": "models/web/scholar.glb",
+      "name": "古代凉亭",
+      "version": "web",
+      "bytes": 570172,
+      "triangles": 44575,
+      "embeddedImages": 3,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "EXT_texture_webp",
+        "KHR_materials_volume",
+        "KHR_mesh_quantization"
+      ],
+      "sha256": "482b0a1d7515740aaac057a96a66fa2548c67943012fcad9b0526878324bf97e"
+    },
+    {
+      "path": "models/web/survivor-desktop.glb",
+      "name": "末日小超市",
+      "version": "web",
+      "bytes": 1745372,
+      "triangles": 44888,
+      "embeddedImages": 3,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "EXT_texture_webp",
+        "KHR_materials_volume",
+        "KHR_mesh_quantization"
+      ],
+      "sha256": "c015badb4ecbc00351a889b084c9f14cbd4d38394626837a1efb5ca1eb3988f9"
+    },
+    {
+      "path": "models/web/survivor-detail.glb",
+      "name": "末日小超市",
+      "version": "web",
+      "bytes": 1016156,
+      "triangles": 44888,
+      "embeddedImages": 3,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "EXT_texture_webp",
+        "KHR_materials_volume",
+        "KHR_mesh_quantization"
+      ],
+      "sha256": "b0718c47fb21546d0dbc6d3f471c37fcb96b064b40f97e7ebe183998e5ce6159"
+    },
+    {
+      "path": "models/web/survivor.glb",
+      "name": "末日小超市",
+      "version": "web",
+      "bytes": 668152,
+      "triangles": 44888,
+      "embeddedImages": 3,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "EXT_texture_webp",
+        "KHR_materials_volume",
+        "KHR_mesh_quantization"
+      ],
+      "sha256": "502befc3dd578b711ada2cfa6b40ffce4e58ee1c54c3f360d5930fad00cbd7a0"
+    },
+    {
+      "path": "models/web/wizard-detail.glb",
+      "name": "巫师玩偶",
+      "version": "web",
+      "bytes": 359456,
+      "triangles": 15819,
+      "embeddedImages": 3,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "EXT_texture_webp",
+        "KHR_materials_volume",
+        "KHR_mesh_quantization"
+      ],
+      "sha256": "5ba9b24b577a853ef2c1af02df5d516962b56ef2fd457f80e2e268cdd1db44e4"
+    },
+    {
+      "path": "models/web/wizard.glb",
+      "name": "巫师玩偶",
+      "version": "web",
+      "bytes": 235756,
+      "triangles": 15819,
+      "embeddedImages": 3,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "EXT_texture_webp",
+        "KHR_materials_volume",
+        "KHR_mesh_quantization"
+      ],
+      "sha256": "824f42ad686897607602b6ac90a002f435420c83888d705e0562b86eaaff7aa8"
+    }
+  ]
+}

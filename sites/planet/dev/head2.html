@@ -1,0 +1,23 @@
+<!doctype html><html><head><meta charset='utf-8'></head><body><pre id='out'>running…</pre><script type='module'>
+const out = (s) => { document.getElementById('out').textContent += '\n' + s; window.__log = (window.__log||[]).concat(s); };
+window.__log = [];
+try {
+  out('start');
+  const THREE = await import('three');
+  out('three ok');
+  const { GLTFLoader } = await import('three/examples/jsm/loaders/GLTFLoader.js');
+  const { MeshoptDecoder } = await import('three/examples/jsm/libs/meshopt_decoder.module.js');
+  out('loader ok');
+  const g = await new GLTFLoader().setMeshoptDecoder(MeshoptDecoder).loadAsync('/models/tripo/avatar_daily.glb');
+  out('glb ok');
+  const m = await import('/src/avatar-head.js');
+  out('head module ok ' + Object.keys(m).join(','));
+  const h = m.extractHead(g.scene, null);
+  out('extract ok');
+  let tris = 0; const boxes = [];
+  h.traverse(o => { if (o.isMesh) { tris += o.geometry.attributes.position.count / 3; o.geometry.computeBoundingBox(); const b = o.geometry.boundingBox; boxes.push(JSON.stringify([b.min.toArray().map(v=>+v.toFixed(3)), b.max.toArray().map(v=>+v.toFixed(3))])); } });
+  out('tris ' + Math.round(tris) + ' meshes ' + h.children.length);
+  out('boxes ' + boxes.join(' '));
+  out('posY ' + h.position.y);
+} catch (e) { out('THROWN ' + (e && (e.stack || e.message))); }
+</script></body></html>

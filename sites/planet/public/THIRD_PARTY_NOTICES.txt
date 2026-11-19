@@ -1,0 +1,19 @@
+黄白的小星球 · 第三方说明
+
+three.js (MIT License) — https://github.com/mrdoob/three.js
+  渲染、GLTFLoader、MeshoptDecoder、RoomEnvironment、BufferGeometryUtils。
+  水面着色参考 three.js examples/jsm/objects/Water.js（MIT）的做法：多层滚动法线采样、菲涅尔天空反射与太阳高光；
+  本项目改写为三平面采样以适配球面，并加入基于水深的岸线泡沫与浅水颜色。
+
+meshoptimizer (MIT License) — https://github.com/zeux/meshoptimizer
+  网页版 GLB 的 EXT_meshopt_compression 解码。
+
+Simplex noise 实现参考 Stefan Gustavson 的公有领域参考实现。
+
+人物与地标模型：Tripo 已生成资源（黄白_星球模型与复刻提示词.zip，models/web/），本版未修改、未新增生成。
+
+
+Homepage display font: Huangbai Angular Display Black, a renamed and modified nine-character subset derived from Source Han Sans CN Heavy (Adobe).
+SIL Open Font License 1.1; full license is included at /fonts/OFL-HuangbaiAngular.txt.
+Modifications: condensed glyph proportions, straight-edged outlines and normalized title metrics.
+Original source: https://github.com/adobe-fonts/source-han-sans

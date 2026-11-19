@@ -1,0 +1,1046 @@
+{
+ "avatar_daily-desktop.glb": {
+  "min": [
+   -0.178,
+   0,
+   -0.183
+  ],
+  "max": [
+   0.178,
+   0.98,
+   0.183
+  ],
+  "tris": 46684,
+  "prims": 1,
+  "nodes": 1,
+  "tex": [
+   "4096x4096:image/webp",
+   "512x512:image/webp",
+   "1024x1024:image/webp"
+  ],
+  "mats": [
+   {
+    "name": "tripo_material_6075cef2-7189-4dfb-badb-74becea681ec",
+    "base": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "metal": 1,
+    "rough": 1,
+    "alpha": "OPAQUE",
+    "ds": false,
+    "ext": []
+   }
+  ]
+ },
+ "avatar_daily.glb": {
+  "min": [
+   -0.178,
+   0,
+   -0.183
+  ],
+  "max": [
+   0.178,
+   0.98,
+   0.183
+  ],
+  "tris": 46684,
+  "prims": 1,
+  "nodes": 1,
+  "tex": [
+   "2048x2048:image/webp",
+   "512x512:image/webp",
+   "1024x1024:image/webp"
+  ],
+  "mats": [
+   {
+    "name": "tripo_material_6075cef2-7189-4dfb-badb-74becea681ec",
+    "base": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "metal": 1,
+    "rough": 1,
+    "alpha": "OPAQUE",
+    "ds": false,
+    "ext": []
+   }
+  ]
+ },
+ "curator-detail.glb": {
+  "min": [
+   -0.483,
+   0,
+   -0.49
+  ],
+  "max": [
+   0.483,
+   0.565,
+   0.49
+  ],
+  "tris": 15072,
+  "prims": 1,
+  "nodes": 1,
+  "tex": [
+   "2048x2048:image/webp",
+   "512x512:image/webp",
+   "1024x1024:image/webp"
+  ],
+  "mats": [
+   {
+    "name": "tripo_material_31b4c65d-6d26-463d-91f3-ad3bc270f19b",
+    "base": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "metal": 1,
+    "rough": 1,
+    "alpha": "OPAQUE",
+    "ds": false,
+    "ext": []
+   }
+  ]
+ },
+ "curator.glb": {
+  "min": [
+   -0.483,
+   0,
+   -0.49
+  ],
+  "max": [
+   0.483,
+   0.565,
+   0.49
+  ],
+  "tris": 15072,
+  "prims": 1,
+  "nodes": 1,
+  "tex": [
+   "1024x1024:image/webp",
+   "512x512:image/webp",
+   "512x512:image/webp"
+  ],
+  "mats": [
+   {
+    "name": "tripo_material_31b4c65d-6d26-463d-91f3-ad3bc270f19b",
+    "base": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "metal": 1,
+    "rough": 1,
+    "alpha": "OPAQUE",
+    "ds": false,
+    "ext": []
+   }
+  ]
+ },
+ "designer-detail.glb": {
+  "min": [
+   -0.458,
+   0,
+   -0.389
+  ],
+  "max": [
+   0.458,
+   0.98,
+   0.389
+  ],
+  "tris": 15516,
+  "prims": 1,
+  "nodes": 1,
+  "tex": [
+   "2048x2048:image/webp",
+   "512x512:image/webp",
+   "1024x1024:image/webp"
+  ],
+  "mats": [
+   {
+    "name": "tripo_material_f6b79eca-c8a5-46f3-af38-3a124e73affe",
+    "base": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "metal": 1,
+    "rough": 1,
+    "alpha": "OPAQUE",
+    "ds": false,
+    "ext": []
+   }
+  ]
+ },
+ "designer.glb": {
+  "min": [
+   -0.458,
+   0,
+   -0.389
+  ],
+  "max": [
+   0.458,
+   0.98,
+   0.389
+  ],
+  "tris": 15516,
+  "prims": 1,
+  "nodes": 1,
+  "tex": [
+   "1024x1024:image/webp",
+   "512x512:image/webp",
+   "512x512:image/webp"
+  ],
+  "mats": [
+   {
+    "name": "tripo_material_f6b79eca-c8a5-46f3-af38-3a124e73affe",
+    "base": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "metal": 1,
+    "rough": 1,
+    "alpha": "OPAQUE",
+    "ds": false,
+    "ext": []
+   }
+  ]
+ },
+ "director-detail.glb": {
+  "min": [
+   -0.348,
+   0,
+   -0.272
+  ],
+  "max": [
+   0.348,
+   0.981,
+   0.272
+  ],
+  "tris": 15081,
+  "prims": 1,
+  "nodes": 1,
+  "tex": [
+   "2048x2048:image/webp",
+   "512x512:image/webp",
+   "1024x1024:image/webp"
+  ],
+  "mats": [
+   {
+    "name": "tripo_material_f98f1f20-01b5-4deb-a06c-01919cd317f1",
+    "base": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "metal": 1,
+    "rough": 1,
+    "alpha": "OPAQUE",
+    "ds": false,
+    "ext": []
+   }
+  ]
+ },
+ "director.glb": {
+  "min": [
+   -0.348,
+   0,
+   -0.272
+  ],
+  "max": [
+   0.348,
+   0.981,
+   0.272
+  ],
+  "tris": 15081,
+  "prims": 1,
+  "nodes": 1,
+  "tex": [
+   "1024x1024:image/webp",
+   "512x512:image/webp",
+   "512x512:image/webp"
+  ],
+  "mats": [
+   {
+    "name": "tripo_material_f98f1f20-01b5-4deb-a06c-01919cd317f1",
+    "base": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "metal": 1,
+    "rough": 1,
+    "alpha": "OPAQUE",
+    "ds": false,
+    "ext": []
+   }
+  ]
+ },
+ "drama_lead-detail.glb": {
+  "min": [
+   -0.49,
+   0,
+   -0.296
+  ],
+  "max": [
+   0.49,
+   0.707,
+   0.296
+  ],
+  "tris": 15125,
+  "prims": 1,
+  "nodes": 1,
+  "tex": [
+   "2048x2048:image/webp",
+   "512x512:image/webp",
+   "1024x1024:image/webp"
+  ],
+  "mats": [
+   {
+    "name": "tripo_material_9b244744-dcbc-450e-ae68-49f84d6d1a03",
+    "base": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "metal": 1,
+    "rough": 1,
+    "alpha": "OPAQUE",
+    "ds": false,
+    "ext": []
+   }
+  ]
+ },
+ "drama_lead.glb": {
+  "min": [
+   -0.49,
+   0,
+   -0.296
+  ],
+  "max": [
+   0.49,
+   0.707,
+   0.296
+  ],
+  "tris": 15125,
+  "prims": 1,
+  "nodes": 1,
+  "tex": [
+   "1024x1024:image/webp",
+   "512x512:image/webp",
+   "512x512:image/webp"
+  ],
+  "mats": [
+   {
+    "name": "tripo_material_9b244744-dcbc-450e-ae68-49f84d6d1a03",
+    "base": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "metal": 1,
+    "rough": 1,
+    "alpha": "OPAQUE",
+    "ds": false,
+    "ext": []
+   }
+  ]
+ },
+ "emperor-desktop.glb": {
+  "min": [
+   -0.471,
+   0,
+   -0.49
+  ],
+  "max": [
+   0.471,
+   0.666,
+   0.49
+  ],
+  "tris": 47581,
+  "prims": 1,
+  "nodes": 1,
+  "tex": [
+   "4096x4096:image/webp",
+   "512x512:image/webp",
+   "1024x1024:image/webp"
+  ],
+  "mats": [
+   {
+    "name": "tripo_material_a0db8764-5008-46a6-81b3-e59025fe3bfe",
+    "base": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "metal": 1,
+    "rough": 1,
+    "alpha": "OPAQUE",
+    "ds": false,
+    "ext": []
+   }
+  ]
+ },
+ "emperor-detail.glb": {
+  "min": [
+   -0.471,
+   0,
+   -0.49
+  ],
+  "max": [
+   0.471,
+   0.666,
+   0.49
+  ],
+  "tris": 47581,
+  "prims": 1,
+  "nodes": 1,
+  "tex": [
+   "2048x2048:image/webp",
+   "512x512:image/webp",
+   "1024x1024:image/webp"
+  ],
+  "mats": [
+   {
+    "name": "tripo_material_a0db8764-5008-46a6-81b3-e59025fe3bfe",
+    "base": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "metal": 1,
+    "rough": 1,
+    "alpha": "OPAQUE",
+    "ds": false,
+    "ext": []
+   }
+  ]
+ },
+ "emperor.glb": {
+  "min": [
+   -0.471,
+   0,
+   -0.49
+  ],
+  "max": [
+   0.471,
+   0.666,
+   0.49
+  ],
+  "tris": 47581,
+  "prims": 1,
+  "nodes": 1,
+  "tex": [
+   "1024x1024:image/webp",
+   "512x512:image/webp",
+   "512x512:image/webp"
+  ],
+  "mats": [
+   {
+    "name": "tripo_material_a0db8764-5008-46a6-81b3-e59025fe3bfe",
+    "base": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "metal": 1,
+    "rough": 1,
+    "alpha": "OPAQUE",
+    "ds": false,
+    "ext": []
+   }
+  ]
+ },
+ "phone_steward-detail.glb": {
+  "min": [
+   -0.392,
+   0,
+   -0.34
+  ],
+  "max": [
+   0.392,
+   0.979,
+   0.34
+  ],
+  "tris": 15505,
+  "prims": 1,
+  "nodes": 1,
+  "tex": [
+   "2048x2048:image/webp",
+   "512x512:image/webp",
+   "1024x1024:image/webp"
+  ],
+  "mats": [
+   {
+    "name": "tripo_material_2323629d-ca7e-45b8-8f0b-96c4fac9edb1",
+    "base": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "metal": 1,
+    "rough": 1,
+    "alpha": "OPAQUE",
+    "ds": false,
+    "ext": []
+   }
+  ]
+ },
+ "phone_steward.glb": {
+  "min": [
+   -0.392,
+   0,
+   -0.34
+  ],
+  "max": [
+   0.392,
+   0.979,
+   0.34
+  ],
+  "tris": 15505,
+  "prims": 1,
+  "nodes": 1,
+  "tex": [
+   "1024x1024:image/webp",
+   "512x512:image/webp",
+   "512x512:image/webp"
+  ],
+  "mats": [
+   {
+    "name": "tripo_material_2323629d-ca7e-45b8-8f0b-96c4fac9edb1",
+    "base": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "metal": 1,
+    "rough": 1,
+    "alpha": "OPAQUE",
+    "ds": false,
+    "ext": []
+   }
+  ]
+ },
+ "planner-detail.glb": {
+  "min": [
+   -0.489,
+   0,
+   -0.251
+  ],
+  "max": [
+   0.489,
+   0.845,
+   0.251
+  ],
+  "tris": 15413,
+  "prims": 1,
+  "nodes": 1,
+  "tex": [
+   "2048x2048:image/webp",
+   "512x512:image/webp",
+   "1024x1024:image/webp"
+  ],
+  "mats": [
+   {
+    "name": "tripo_material_adb48a17-8f18-49da-b64e-e731b8844e36",
+    "base": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "metal": 1,
+    "rough": 1,
+    "alpha": "OPAQUE",
+    "ds": false,
+    "ext": []
+   }
+  ]
+ },
+ "planner.glb": {
+  "min": [
+   -0.489,
+   0,
+   -0.251
+  ],
+  "max": [
+   0.489,
+   0.845,
+   0.251
+  ],
+  "tris": 15413,
+  "prims": 1,
+  "nodes": 1,
+  "tex": [
+   "1024x1024:image/webp",
+   "512x512:image/webp",
+   "512x512:image/webp"
+  ],
+  "mats": [
+   {
+    "name": "tripo_material_adb48a17-8f18-49da-b64e-e731b8844e36",
+    "base": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "metal": 1,
+    "rough": 1,
+    "alpha": "OPAQUE",
+    "ds": false,
+    "ext": []
+   }
+  ]
+ },
+ "programmer-detail.glb": {
+  "min": [
+   -0.49,
+   0,
+   -0.468
+  ],
+  "max": [
+   0.49,
+   0.86,
+   0.468
+  ],
+  "tris": 15158,
+  "prims": 1,
+  "nodes": 1,
+  "tex": [
+   "2048x2048:image/webp",
+   "512x512:image/webp",
+   "1024x1024:image/webp"
+  ],
+  "mats": [
+   {
+    "name": "tripo_material_a4e5318d-de01-48c6-b771-d190ea829c84",
+    "base": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "metal": 1,
+    "rough": 1,
+    "alpha": "OPAQUE",
+    "ds": false,
+    "ext": []
+   }
+  ]
+ },
+ "programmer.glb": {
+  "min": [
+   -0.49,
+   0,
+   -0.468
+  ],
+  "max": [
+   0.49,
+   0.86,
+   0.468
+  ],
+  "tris": 15158,
+  "prims": 1,
+  "nodes": 1,
+  "tex": [
+   "1024x1024:image/webp",
+   "512x512:image/webp",
+   "512x512:image/webp"
+  ],
+  "mats": [
+   {
+    "name": "tripo_material_a4e5318d-de01-48c6-b771-d190ea829c84",
+    "base": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "metal": 1,
+    "rough": 1,
+    "alpha": "OPAQUE",
+    "ds": false,
+    "ext": []
+   }
+  ]
+ },
+ "racer-detail.glb": {
+  "min": [
+   -0.358,
+   0,
+   -0.49
+  ],
+  "max": [
+   0.358,
+   0.483,
+   0.49
+  ],
+  "tris": 15716,
+  "prims": 1,
+  "nodes": 1,
+  "tex": [
+   "2048x2048:image/webp",
+   "512x512:image/webp",
+   "1024x1024:image/webp"
+  ],
+  "mats": [
+   {
+    "name": "tripo_material_63119081-cbc3-49d3-9689-aeb6b0c9e622",
+    "base": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "metal": 1,
+    "rough": 1,
+    "alpha": "OPAQUE",
+    "ds": false,
+    "ext": []
+   }
+  ]
+ },
+ "racer.glb": {
+  "min": [
+   -0.358,
+   0,
+   -0.49
+  ],
+  "max": [
+   0.358,
+   0.483,
+   0.49
+  ],
+  "tris": 15716,
+  "prims": 1,
+  "nodes": 1,
+  "tex": [
+   "1024x1024:image/webp",
+   "512x512:image/webp",
+   "512x512:image/webp"
+  ],
+  "mats": [
+   {
+    "name": "tripo_material_63119081-cbc3-49d3-9689-aeb6b0c9e622",
+    "base": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "metal": 1,
+    "rough": 1,
+    "alpha": "OPAQUE",
+    "ds": false,
+    "ext": []
+   }
+  ]
+ },
+ "scholar-desktop.glb": {
+  "min": [
+   -0.466,
+   0,
+   -0.428
+  ],
+  "max": [
+   0.466,
+   0.979,
+   0.428
+  ],
+  "tris": 44575,
+  "prims": 1,
+  "nodes": 1,
+  "tex": [
+   "4096x4096:image/webp",
+   "512x512:image/webp",
+   "1024x1024:image/webp"
+  ],
+  "mats": [
+   {
+    "name": "tripo_material_8ebc80bc-dbc9-4172-9da3-00d1deb5632c",
+    "base": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "metal": 1,
+    "rough": 1,
+    "alpha": "OPAQUE",
+    "ds": false,
+    "ext": []
+   }
+  ]
+ },
+ "scholar-detail.glb": {
+  "min": [
+   -0.466,
+   0,
+   -0.428
+  ],
+  "max": [
+   0.466,
+   0.979,
+   0.428
+  ],
+  "tris": 44575,
+  "prims": 1,
+  "nodes": 1,
+  "tex": [
+   "2048x2048:image/webp",
+   "512x512:image/webp",
+   "1024x1024:image/webp"
+  ],
+  "mats": [
+   {
+    "name": "tripo_material_8ebc80bc-dbc9-4172-9da3-00d1deb5632c",
+    "base": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "metal": 1,
+    "rough": 1,
+    "alpha": "OPAQUE",
+    "ds": false,
+    "ext": []
+   }
+  ]
+ },
+ "scholar.glb": {
+  "min": [
+   -0.466,
+   0,
+   -0.428
+  ],
+  "max": [
+   0.466,
+   0.979,
+   0.428
+  ],
+  "tris": 44575,
+  "prims": 1,
+  "nodes": 1,
+  "tex": [
+   "1024x1024:image/webp",
+   "512x512:image/webp",
+   "512x512:image/webp"
+  ],
+  "mats": [
+   {
+    "name": "tripo_material_8ebc80bc-dbc9-4172-9da3-00d1deb5632c",
+    "base": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "metal": 1,
+    "rough": 1,
+    "alpha": "OPAQUE",
+    "ds": false,
+    "ext": []
+   }
+  ]
+ },
+ "survivor-desktop.glb": {
+  "min": [
+   -0.49,
+   0,
+   -0.48
+  ],
+  "max": [
+   0.49,
+   0.857,
+   0.48
+  ],
+  "tris": 44888,
+  "prims": 1,
+  "nodes": 1,
+  "tex": [
+   "4096x4096:image/webp",
+   "512x512:image/webp",
+   "1024x1024:image/webp"
+  ],
+  "mats": [
+   {
+    "name": "tripo_material_530a4247-a100-45eb-ac43-f520bf5e6653",
+    "base": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "metal": 1,
+    "rough": 1,
+    "alpha": "OPAQUE",
+    "ds": false,
+    "ext": []
+   }
+  ]
+ },
+ "survivor-detail.glb": {
+  "min": [
+   -0.49,
+   0,
+   -0.48
+  ],
+  "max": [
+   0.49,
+   0.857,
+   0.48
+  ],
+  "tris": 44888,
+  "prims": 1,
+  "nodes": 1,
+  "tex": [
+   "2048x2048:image/webp",
+   "512x512:image/webp",
+   "1024x1024:image/webp"
+  ],
+  "mats": [
+   {
+    "name": "tripo_material_530a4247-a100-45eb-ac43-f520bf5e6653",
+    "base": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "metal": 1,
+    "rough": 1,
+    "alpha": "OPAQUE",
+    "ds": false,
+    "ext": []
+   }
+  ]
+ },
+ "survivor.glb": {
+  "min": [
+   -0.49,
+   0,
+   -0.48
+  ],
+  "max": [
+   0.49,
+   0.857,
+   0.48
+  ],
+  "tris": 44888,
+  "prims": 1,
+  "nodes": 1,
+  "tex": [
+   "1024x1024:image/webp",
+   "512x512:image/webp",
+   "512x512:image/webp"
+  ],
+  "mats": [
+   {
+    "name": "tripo_material_530a4247-a100-45eb-ac43-f520bf5e6653",
+    "base": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "metal": 1,
+    "rough": 1,
+    "alpha": "OPAQUE",
+    "ds": false,
+    "ext": []
+   }
+  ]
+ },
+ "wizard-detail.glb": {
+  "min": [
+   -0.314,
+   0,
+   -0.297
+  ],
+  "max": [
+   0.314,
+   0.98,
+   0.297
+  ],
+  "tris": 15819,
+  "prims": 1,
+  "nodes": 1,
+  "tex": [
+   "2048x2048:image/webp",
+   "512x512:image/webp",
+   "1024x1024:image/webp"
+  ],
+  "mats": [
+   {
+    "name": "tripo_material_0f0f7d5e-0b03-4056-bc70-0aec9deca826",
+    "base": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "metal": 1,
+    "rough": 1,
+    "alpha": "OPAQUE",
+    "ds": false,
+    "ext": []
+   }
+  ]
+ },
+ "wizard.glb": {
+  "min": [
+   -0.314,
+   0,
+   -0.297
+  ],
+  "max": [
+   0.314,
+   0.98,
+   0.297
+  ],
+  "tris": 15819,
+  "prims": 1,
+  "nodes": 1,
+  "tex": [
+   "1024x1024:image/webp",
+   "512x512:image/webp",
+   "512x512:image/webp"
+  ],
+  "mats": [
+   {
+    "name": "tripo_material_0f0f7d5e-0b03-4056-bc70-0aec9deca826",
+    "base": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "metal": 1,
+    "rough": 1,
+    "alpha": "OPAQUE",
+    "ds": false,
+    "ext": []
+   }
+  ]
+ }
+}

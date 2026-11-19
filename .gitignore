@@ -1,0 +1,14 @@
+node_modules/
+.vercel/
+.openai/
+.env
+.env.*
+.DS_Store
+*.tsbuildinfo
+.tools/
+.vite-cache/
+.npm-cache/
+sites/planet/dist/
+sites/elastic-head/dist/
+sites/wardrobe/docs/hover-response/timing.json
+sites/wardrobe/docs/rail-contact/rail-regression.json

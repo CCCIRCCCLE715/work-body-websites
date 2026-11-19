@@ -1,0 +1,43 @@
+<!doctype html><html><head><meta charset="utf-8"><style>html,body{margin:0;background:#e7ecf2}</style></head><body>
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
+import { MeshoptDecoder } from 'three/examples/jsm/libs/meshopt_decoder.module.js';
+import { RoomEnvironment } from 'three/examples/jsm/environments/RoomEnvironment.js';
+import { extractHead } from '/src/avatar-head.js';
+import { buildRig, animateRig, buildOutfitParts } from '/src/avatar.js';
+import { OUTFITS } from '/src/outfits.js';
+const W = 1800, H = 620;
+const r = new THREE.WebGLRenderer({ antialias: true }); r.setSize(W, H); r.setScissorTest(true); document.body.appendChild(r.domElement);
+r.toneMapping = THREE.NeutralToneMapping; r.outputColorSpace = THREE.SRGBColorSpace; r.shadowMap.enabled = true;
+const scene = new THREE.Scene(); scene.background = new THREE.Color(0xe7ecf2);
+scene.environment = new THREE.PMREMGenerator(r).fromScene(new RoomEnvironment(), 0.04).texture; scene.environmentIntensity = 0.55;
+scene.add(new THREE.HemisphereLight(0xe4f0ff, 0x9d8cc4, 0.95)); const d = new THREE.DirectionalLight(0xfff0d8, 2.3); d.position.set(-2, 3, 3); d.castShadow = true; scene.add(d);
+const g = await new GLTFLoader().setMeshoptDecoder(MeshoptDecoder).loadAsync('/models/tripo/avatar_daily.glb');
+const head = extractHead(g.scene, r);
+const rig = buildRig(r); rig.setHead(head); scene.add(rig.root);
+const q = new URLSearchParams(location.search);
+const style = q.get('o') || 'daily';
+const slots = buildOutfitParts(rig, OUTFITS[style]);
+rig.setLegVisible(!slots.longRobe);
+for (const k of Object.keys(rig.outfit)) rig.outfit[k].add(slots[k]);
+window.rig = rig;
+const poses = q.get('poses') ? q.get('poses').split(',').map(Number) : [0, 0.25, 0.5, 0.75];
+const n = poses.length;
+const cw = W / n;
+let frame = 0;
+function draw() {
+  frame++;
+  poses.forEach((ph, i) => {
+    const walking = q.get('walk') !== '0';
+    animateRig(rig, { walking, t: ph * 2.4, speed: 1 });
+    const cam = new THREE.PerspectiveCamera(26, cw / H, 0.02, 20);
+    cam.position.set(0.55, 0.72, 2.3); cam.lookAt(0, 0.48, 0);
+    r.setViewport(i * cw, 0, cw, H); r.setScissor(i * cw, 0, cw, H);
+    r.render(scene, cam);
+  });
+  window.done = true;
+  if (frame < 2) requestAnimationFrame(draw);
+}
+draw();
+</script></body></html>

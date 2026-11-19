@@ -1,0 +1,46 @@
+<!doctype html><html><head><meta charset='utf-8'><style>html,body{margin:0;background:#2a1828;color:#fff;font:12px sans-serif}#info{position:fixed;left:8px;top:8px;background:#0008;padding:6px 8px;border-radius:6px;white-space:pre}</style></head><body><div id='info'></div>
+<script type='module'>
+import * as THREE from 'three';
+import { RoomEnvironment } from 'three/examples/jsm/environments/RoomEnvironment.js';
+import { LANDMARKS } from '/src/data.js';
+import { stats } from '/src/landmarks/kit.js';
+const q = new URLSearchParams(location.search);
+const id = q.get('m') || 'emperor';
+const lm = LANDMARKS.find(l => l.id === id) || { id, scale: 1.36, bounds: [0.5, 0.8, 0.5] };
+const W = 1600, H = 900;
+const r = new THREE.WebGLRenderer({ antialias: true }); r.setSize(W, H); r.setScissorTest(true); document.body.appendChild(r.domElement);
+r.toneMapping = THREE.NeutralToneMapping; r.toneMappingExposure = 1.06; r.outputColorSpace = THREE.SRGBColorSpace; r.shadowMap.enabled = true; r.shadowMap.type = THREE.PCFSoftShadowMap;
+const scene = new THREE.Scene(); scene.background = new THREE.Color(0x2a1828);
+scene.environment = new THREE.PMREMGenerator(r).fromScene(new RoomEnvironment(), 0.04).texture; scene.environmentIntensity = 0.55;
+scene.add(new THREE.HemisphereLight(0xe4f0ff, 0x9d8cc4, 0.95));
+const sun = new THREE.DirectionalLight(0xfff0d8, 2.35); sun.position.set(-2.2, 2.6, 2.1); sun.castShadow = true; sun.shadow.mapSize.set(2048, 2048); sun.shadow.bias = -0.0004; sun.shadow.normalBias = 0.02;
+const sc = sun.shadow.camera; sc.left = -3; sc.right = 3; sc.top = 3; sc.bottom = -3; sc.near = 0.1; sc.far = 20; scene.add(sun);
+const rim = new THREE.DirectionalLight(0xc6c2ff, 0.55); rim.position.set(3, -0.5, -2); scene.add(rim);
+const ground = new THREE.Mesh(new THREE.CircleGeometry(3, 64), new THREE.MeshStandardMaterial({ color: 0x8fbf72, roughness: 0.92 })); ground.rotation.x = -Math.PI / 2; ground.receiveShadow = true; scene.add(ground);
+const mod = await import('/src/landmarks/' + id + '.js?t=' + Date.now());
+const built = mod.build();
+const model = built.group || built;
+const holder = new THREE.Group(); holder.scale.setScalar(lm.scale); holder.add(model); scene.add(holder);
+// avatar-size reference (1.0 world unit tall chibi) standing at the front-right
+const ref = new THREE.Mesh(new THREE.CapsuleGeometry(0.18, 0.62, 6, 16), new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 0.8, transparent: true, opacity: 0.35 })); ref.position.set(lm.bounds[0] * lm.scale + 0.45, 0.5, lm.bounds[2] * lm.scale * 0.6); scene.add(ref);
+scene.updateMatrixWorld(true);
+const box = new THREE.Box3().setFromObject(model); const size = box.getSize(new THREE.Vector3());
+const s = stats(model);
+const spec = lm.bounds.map(v => +(v * 2).toFixed(3));
+const got = [size.x / lm.scale, size.y / lm.scale, size.z / lm.scale].map(v => +v.toFixed(3));
+document.getElementById('info').textContent = id + '  tris ' + s.tris + '  meshes(draw calls) ' + s.meshes + '  materials ' + s.materials + '\nmodel-unit size got ' + got.join(' x ') + '  spec ' + spec[0] + ' x ' + spec[1]/2 + ' x ' + spec[2] + '  (w x h x d)';
+window.info = { id, ...s, got, spec: [spec[0], lm.bounds[1], spec[2]] };
+const ext = Math.max(size.x, size.y, size.z);
+const views = [[0, 0.35, 1], [1, 0.5, 0.15], [-0.25, 0.4, -1], [0.7, 0.9, 0.8]];
+const cw = W / 2, ch = H / 2; let t = 0;
+function draw() {
+  t += 1 / 60; if (built.update) built.update(t, 1 / 60);
+  views.forEach((v, i) => {
+    const cam = new THREE.PerspectiveCamera(32, cw / ch, 0.05, 100);
+    const dir = new THREE.Vector3(...v).normalize(); cam.position.copy(dir.multiplyScalar(ext * 2.1)).add(new THREE.Vector3(0, size.y * 0.4, 0)); cam.lookAt(0, size.y * 0.42, 0);
+    const x = (i % 2) * cw, y = (1 - Math.floor(i / 2)) * ch; r.setViewport(x, y, cw, ch); r.setScissor(x, y, cw, ch); r.render(scene, cam);
+  });
+  requestAnimationFrame(draw);
+}
+draw(); setTimeout(() => window.done = true, 600);
+</script></body></html>

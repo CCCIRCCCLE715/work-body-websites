@@ -1,0 +1,769 @@
+[
+  {
+    "key": "rest",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "closed",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "half",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "right",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "ene",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "upright",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "nne",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "up",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "nnw",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "upleft",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "wnw",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "left",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "wsw",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "downleft",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "ssw",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "down",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "sse",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "downright",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "ese",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "cross",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "shock",
+    "fixed_outline": false,
+    "alpha_sha256": "cf2bd905fe0ab6b4d2ab2078802d7d0d6616b864860d9692650e57013213ea49",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.1153719687215495
+  },
+  {
+    "key": "tongue",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "angry",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "scrunch",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "winkr",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "winkl",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "raised",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "puff",
+    "fixed_outline": false,
+    "alpha_sha256": "e4bc7efe8d2346038758e47cac03fe550a6c67d0414641c92aa2462a627f3915",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.002256415289883
+  },
+  {
+    "key": "laugh",
+    "fixed_outline": false,
+    "alpha_sha256": "46b31c4f8dba3172348dca50f41010f013c582239b35f5dcdd05c025e59a9b0a",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.073282460467906
+  },
+  {
+    "key": "yawn",
+    "fixed_outline": false,
+    "alpha_sha256": "9c345fc58c371cec1450839489bedc22e30f076f3cb3581e16b6ba644a324296",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.14
+  },
+  {
+    "key": "grin",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "kiss",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "cry",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "smug",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "scared",
+    "fixed_outline": false,
+    "alpha_sha256": "9c345fc58c371cec1450839489bedc22e30f076f3cb3581e16b6ba644a324296",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.14
+  },
+  {
+    "key": "fish",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "blue",
+    "fixed_outline": false,
+    "alpha_sha256": "6e53acdd6e81e096c797c2b73731673aec3e6db840f7291d348b99d59bf11fad",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "dizzy",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "blonde",
+    "fixed_outline": false,
+    "alpha_sha256": "6e53acdd6e81e096c797c2b73731673aec3e6db840f7291d348b99d59bf11fad",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "pink",
+    "fixed_outline": false,
+    "alpha_sha256": "6e53acdd6e81e096c797c2b73731673aec3e6db840f7291d348b99d59bf11fad",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "wind",
+    "fixed_outline": false,
+    "alpha_sha256": "1cb71a01632c9bd4970936d8fd22dc6b7ad95d1bdd474ac7dce7c5b4b67ac226",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "ouch",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "deadpan",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "yawn1",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "yawn2",
+    "fixed_outline": false,
+    "alpha_sha256": "9c345fc58c371cec1450839489bedc22e30f076f3cb3581e16b6ba644a324296",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.14
+  },
+  {
+    "key": "whistle1",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "yawn4",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "sneeze1",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "gum1",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "gum2",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "whistle2",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "sneeze2",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "gum3",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "gumpop",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "hearts",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "stars",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "snore",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "shy",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  },
+  {
+    "key": "sick",
+    "fixed_outline": true,
+    "alpha_sha256": "e099ba01b9b9950c558fb214e618f7493911f42a013172a506bcb00214ab1b38",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "components": 1,
+    "holes": 0,
+    "face_interior_rgb_unchanged": true,
+    "jaw_vertical_scale": 1.0
+  }
+]
