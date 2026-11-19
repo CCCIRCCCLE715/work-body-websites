@@ -18,3 +18,6 @@ sites/fs50p-watch/dist-offline/
 !sites/fs50p-watch/.openai/
 sites/fs50p-watch/.openai/*
 !sites/fs50p-watch/.openai/hosting.json
+
+sites/yingxian-pagoda/dist/
+sites/yingxian-pagoda/minitool-dist/

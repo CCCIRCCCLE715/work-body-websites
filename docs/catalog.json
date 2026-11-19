@@ -52,6 +52,16 @@
       "directory": null,
       "liveUrl": "https://novaai-deconstruction-scroll.vercel.app/",
       "sourceStatus": "not-located"
+    },
+    {
+      "id": "yingxian-pagoda",
+      "title": "应县木塔",
+      "description": "六幕滚动、木构拆解、斗栱近景与自由观塔",
+      "directory": "sites/yingxian-pagoda",
+      "liveUrl": "https://huangbai-ai.github.io/yingxian-pagoda/",
+      "sourceStatus": "included",
+      "sourceRepository": "https://github.com/huangbai-AI/yingxian-pagoda",
+      "sourceCommit": "a11c8c721a0a88318b3c859247b0cdcac8628064"
     }
   ]
 }

@@ -11,9 +11,10 @@
 | 弹性大头作品集 | 捏脸、表情变化、鼠标跟随 | [sites/elastic-head](sites/elastic-head) | [打开网站](https://huangbai-portfolio.vercel.app/) |
 | 月球太空舱 | 连续开门、三段空间、滚动视频 | [sites/lunar-parallax](sites/lunar-parallax) | 可按下方说明本地运行 |
 | FS50P 手表 | 活动表链、机芯拆解、三维滚动 | [sites/fs50p-watch](sites/fs50p-watch) | [打开网站](https://fs50p-watch-experience.vercel.app/) |
+| 应县木塔 | 六幕滚动、木构拆解、自由观塔 | [sites/yingxian-pagoda](sites/yingxian-pagoda) | [打开网站](https://huangbai-ai.github.io/yingxian-pagoda/) |
 | NovaAI Lab | 白色线缆、滚动形变、章节切换 | 源码尚未找到 | [打开网站](https://novaai-deconstruction-scroll.vercel.app/) |
 
-当前收录五个完整源码项目和一个线上案例入口。NovaAI 尚未收录源码；月球网站尚未确认线上地址。小星球源码包含 2026-11-18 的走近、换装与居中弹出大卡片交互，线上版本尚未包含这些更新。
+当前收录六个完整源码项目和一个线上案例入口。NovaAI 尚未收录源码；月球网站尚未确认线上地址。小星球源码包含 2026-11-18 的走近、换装与居中弹出大卡片交互，线上版本尚未包含这些更新。
 
 [其他历史案例](docs/previous-websites.md)保留各项目的原仓库入口。[案例清单](docs/catalog.json)记录目录、线上地址和源码状态，供脚本或 AI 读取。
 
@@ -53,6 +54,8 @@ npm run dev -- --host 127.0.0.1 --port 5174
 | FS50P 手表 | `sites/fs50p-watch` | Vite | `npm run build` | `dist/client` |
 
 本仓库的上传不包含 Vercel 重新部署。线上状态按 2026-11-19 核查结果记录。
+
+木塔启动方法见 [项目说明](sites/yingxian-pagoda/README.md)。部署目录 `sites/yingxian-pagoda`，构建 `npm run build`，输出 `dist`。
 
 ## 文件与素材
 
